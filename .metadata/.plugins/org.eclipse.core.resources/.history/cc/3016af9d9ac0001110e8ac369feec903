@@ -1,0 +1,30 @@
+package com;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		try {
+			Properties properties = new Properties();
+
+	        try (FileInputStream input = new FileInputStream("data/users.txt")) {
+	            properties.load(input);
+	        }
+
+	        String username = properties.getProperty("username");
+	        String password = properties.getProperty("password");
+
+	        System.out.println(username);
+	        System.out.println(password);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+
+}

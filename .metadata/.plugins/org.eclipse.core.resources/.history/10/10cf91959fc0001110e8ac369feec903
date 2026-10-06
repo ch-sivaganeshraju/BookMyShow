@@ -1,0 +1,102 @@
+async function searchBuses() {
+
+    const from =
+        document.getElementById("from").value.trim();
+
+    const to =
+        document.getElementById("to").value.trim();
+
+    if (from === "" || to === "") {
+
+        alert("Please enter both locations.");
+
+        return;
+    }
+
+    try {
+
+        const response = await fetch(
+            "http://localhost:8080/locations"
+        );
+
+        const buses = await response.json();
+
+        const results =
+            document.getElementById("results");
+
+        results.innerHTML = "";
+
+        const matchingBuses = buses.filter(function(bus) {
+
+            return (
+                bus.from.toLowerCase() ===
+                from.toLowerCase()
+            &&
+                bus.to.toLowerCase() ===
+                to.toLowerCase()
+            );
+
+        });
+
+        if (matchingBuses.length === 0) {
+
+            results.innerHTML =
+                "<div class='bus'>" +
+                "<h3>No buses found</h3>" +
+                "<p>Check locations.txt</p>" +
+                "</div>";
+
+            return;
+        }
+
+        matchingBuses.forEach(function(bus) {
+
+            results.innerHTML +=
+
+                "<div class='bus'>" +
+
+                "<h3>🚌 Bus ID: " +
+                bus.busId +
+                "</h3>" +
+
+                "<p><b>From:</b> " +
+                bus.from +
+                "</p>" +
+
+                "<p><b>To:</b> " +
+                bus.to +
+                "</p>" +
+
+                "<p><b>Bus Type:</b> " +
+                bus.type +
+                "</p>" +
+
+                "<p><b>Departure:</b> " +
+                bus.departure +
+                "</p>" +
+
+                "<p><b>Distance:</b> " +
+                bus.distance +
+                " KM</p>" +
+
+                "<p><b>Adult Fare:</b> ₹" +
+                bus.adultFare +
+                "</p>" +
+
+                "<p><b>Child Fare:</b> ₹" +
+                bus.childFare +
+                "</p>" +
+
+                "</div>";
+
+        });
+
+    } catch (error) {
+
+        console.error(error);
+
+        alert(
+            "Cannot connect to Java server."
+        );
+    }
+}

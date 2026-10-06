@@ -1,0 +1,266 @@
+package com;
+import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Properties;
+import java.util.Scanner;
+
+public class BookMyTicket {
+	public static int price;
+
+	public static void main(String[] args) throws FileNotFoundException {
+		Scanner scanner = new Scanner(System.in);
+		BookMyTicket book = new BookMyTicket();
+
+		System.out.println("Welcome To Book My Ticket. ");
+		System.out.println("Login (or) Signup ");
+		String UserEnteredMethod = scanner.nextLine();
+
+		if (UserEnteredMethod.equals("Login") || UserEnteredMethod.equals("login")) {
+			book.login(scanner);
+		}
+		if (UserEnteredMethod.equals("Signup") || UserEnteredMethod.equals("signup")) {
+			book.signup(scanner);
+		}
+		scanner.close();
+	}
+
+	// Login Method Allows Already Registered users
+	public void login(Scanner scanner) throws FileNotFoundException {
+		int attempts = 3;
+		while (attempts > 0) {
+			System.out.println("Enter Your User Name : ");
+			String username = scanner.nextLine();
+			System.out.println("Enter your Password : ");
+			String password = scanner.nextLine();
+
+			try {
+
+				BufferedReader reader = new BufferedReader(new FileReader("users.txt"));
+				String line;
+				boolean loginSuccessful = false;
+				while ((line = reader.readLine()) != null) {
+					String[] userData = line.split(",");
+					String savedUsername = userData[0];
+					String savedPassword = userData[1];
+
+					if (username.equals(savedUsername) && password.equals(savedPassword)) {
+
+						loginSuccessful = true;
+						break;
+					}
+				}
+
+				reader.close();
+
+				if (loginSuccessful) {
+					System.out.println("Login successful!");
+					locations(scanner);
+					break;
+				} else {
+					System.out.println("Invalid username or password.");
+					attempts--;
+					System.out.println("Remaining Attempts :" + attempts);
+				}
+
+			} catch (IOException e) {
+				System.out.println("No users found. Please signup first.");
+				signup(scanner);
+			}
+		}
+	}
+
+	
+
+	public void signup(Scanner scanner) {
+		System.out.println("Enter a new User Name: ");
+		String username = scanner.nextLine();
+
+		System.out.println("Enter a new password:");
+		String password = scanner.nextLine();
+
+		try {
+
+			FileWriter writer = new FileWriter("users.txt", true);
+
+			writer.write(username + "," + password + "\n");
+
+			writer.close();
+
+			System.out.println("Signup successful!");
+
+		} catch (IOException e) {
+			System.out.println("Error saving user.");
+		}
+
+	}
+
+	public void locations(Scanner scanner) {
+        System.out.println("To Add a New Location Enter add  ");
+        String choice = scanner.nextLine();
+        if(choice.equalsIgnoreCase("yes")) {
+        	addlocation(scanner);
+        }
+		while (true) {
+			System.out.println("Enter you Bording point : ");
+			String UserEnteredBordingPoint = scanner.nextLine();
+			System.out.println("Enter you Departure point : ");
+			String UserEnteredDeparturePoint = scanner.nextLine();
+
+			try {
+				BufferedReader reader = new BufferedReader(new FileReader("locations.txt"));
+				String line;
+				boolean locationfound = false;
+				while ((line = reader.readLine()) != null) {
+					if (line.trim().isEmpty()) {
+						continue;
+					}
+					String[] location = line.split("\\|");
+					String Bording = location[1];
+					String Departure = location[2];
+					String BusType = location[3];
+					String Distance = location[5];
+					String AdultFare = location[6];
+					String ChildFare = location[7];
+
+					if (UserEnteredBordingPoint.equalsIgnoreCase(Bording)
+							&& UserEnteredDeparturePoint.equalsIgnoreCase(Departure)) {
+						System.out.println("Locations Found! ");
+						System.out.println("Available Bus Type :" + BusType);
+						System.out.println("Total Distance :" + Distance);
+						System.out.println("Bus Fare : " + AdultFare);
+						int Fare = Integer.parseInt(AdultFare);
+						int distance = Integer.parseInt(Distance);
+						seats(scanner, Fare, distance);
+						locationfound = true;
+						break;
+					}
+				}
+				if (!locationfound) {
+					System.out.println("lLocation Not Found Enter the Details Again !");
+				} else {
+					break;
+				}
+			} catch (IOException e) {
+				System.out.println("No Location Found Try Again!");
+			}
+			break;
+		}
+
+	}
+
+	public void seats(Scanner scanner, int fare, int distance) {
+		System.out.println("                             ");
+		System.out.println("                           💿");
+		System.out.println(" 01.💺 02.💺       24.💺 25.💺");
+		System.out.println(" 03.💺 04.💺       26.💺 27.💺");
+		System.out.println(" 05.💺 06.💺       28.💺 29.💺");
+		System.out.println(" 07.💺 08.💺       30.💺 31.💺");
+		System.out.println(" 09.💺 10.💺       32.💺 33.💺");
+		System.out.println(" 11.💺 12.💺       34.💺 35.💺");
+		System.out.println(" 13.💺 14.💺       36.💺 37.💺");
+		System.out.println(" 15.💺 16.💺       38.💺 39.💺");
+		System.out.println(" 17.💺 18.💺       40.💺 41.💺");
+		System.out.println(" 19.💺 20.💺 21.💺 22.💺 23.💺");
+		System.out.println("Enter Number of seats : ");
+		int seats = scanner.nextInt();
+
+		if (seats <= 0 || seats > 5) {
+			System.out.println("Please  Enter No.of seats between 1 to 5  !");
+		} else {
+
+			int NumberOfSeat = seats;
+
+			String[] UserSelectedSeats = new String[5];
+			for (int seatno = 1; seatno < 5; seatno++) {
+
+				System.out.println("Select Seat " + seatno);
+				UserSelectedSeats[seatno] = scanner.next();
+
+			}
+			try {
+				FileWriter writer = new FileWriter("seats.txt", true);
+				for (int i = 0; i < 5; i++) {
+					writer.write(UserSelectedSeats[i]+",");
+				}
+
+				writer.close();
+			} catch (IOException e) {
+
+			}
+			price = fare * NumberOfSeat;
+			try {
+				BufferedReader reader = new BufferedReader(new FileReader("seats.txt"));
+				String line;
+				boolean seatnofound = false;
+				while ((line = reader.readLine()) != null) {
+					if (line.trim().isEmpty()) {
+						continue;
+					}
+					String[] seatnumbers = line.split(",");
+					if(seatnumbers.equals(UserSelectedSeats)) {
+						System.out.println("Sorry This Seat is Already Booked By Others "+"\n"+"Please select other Seat!");
+					}
+
+				}
+			} catch (IOException e) {
+
+			}
+			summary(NumberOfSeat);
+		}
+
+	}
+
+	public void summary(int seats) {
+		int fees = 12 * seats;
+		System.out.println("Ticket Price : " + price);
+		System.out.println("Convinence Fee : " + fees);
+		System.out.println("Total Cost : " + (price + fees));
+
+	}
+	public void addlocation(Scanner scanner) {
+		//BUS_ID|FROM|TO|SERVICE_TYPE|DEPARTURE|DISTANCE_KM|ADULT_FARE|CHILD_FARE
+		System.out.println("Enter the deatials required");
+		System.out.println("If don't know the exact value just enter space.");
+		System.out.println();
+		System.out.println("Enter Bus ID :");
+		String bus_id = scanner.next();
+		System.out.println("Enter From location :");
+		String from = scanner.next();
+		System.out.println("Enter TO location :");
+		String to = scanner.next();
+		System.out.println("Enter SERVICE_TYPE :");
+		String service_type = scanner.next();
+		System.out.println("Enter DEPARTURE :");
+		String departure = scanner.next();
+		System.out.println("Enter DISTANCE :");
+		String distance = scanner.next();
+		System.out.println("Enter ADULT_FARE :");
+		String adultfare = scanner.next();
+		System.out.println("Enter CHILD_FARE :");
+		String childfare = scanner.next();
+		
+		
+		
+		
+		try {
+
+			FileWriter writer = new FileWriter("locations.txt", true);
+
+			writer.write( bus_id+"|"+from+"|"+to+"|"+service_type+"|"+departure+"|"+distance+"|"+adultfare+"|"+childfare+"|"+"\n");
+
+			writer.close();
+
+			System.out.println("Location Added successfully !");
+			System.out.println("Thanks For Supporting Us.");
+
+		} catch (IOException e) {
+			System.out.println("Error saving user.");
+		}
+	}
+
+}

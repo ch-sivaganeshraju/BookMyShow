@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>BookMyTicket</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- =====================================================
+     AUTHENTICATION SCREEN
+===================================================== -->
+
+<div id="authScreen" class="auth-screen">
+
+    <div class="auth-card">
+
+        <div class="brand">
+            🚌
+        </div>
+
+        <h1>BookMyTicket</h1>
+
+        <p class="auth-subtitle">
+            Your journey starts here.
+        </p>
+
+
+        <!-- AUTH CHOICE -->
+
+        <div id="authChoice">
+
+            <h2>Welcome</h2>
+
+            <p>
+                Login or create an account to continue.
+            </p>
+
+            <button
+                type="button"
+                onclick="showLogin()"
+                class="primary-btn">
+
+                Login
+
+            </button>
+
+            <button
+                type="button"
+                onclick="showSignup()"
+                class="secondary-btn">
+
+                Create Account
+
+            </button>
+
+        </div>
+
+
+        <!-- LOGIN -->
+
+        <div id="loginForm"
+             class="auth-form hidden">
+
+            <h2>Login</h2>
+
+            <p>
+                Welcome back!
+            </p>
+
+            <input
+                type="text"
+                id="loginUsername"
+                placeholder="Username"
+                autocomplete="username">
+
+            <input
+                type="password"
+                id="loginPassword"
+                placeholder="Password"
+                autocomplete="current-password">
+
+            <button
+                type="button"
+                onclick="loginUser()"
+                class="primary-btn">
+
+                Login
+
+            </button>
+
+            <p id="loginMessage"
+               class="message">
+            </p>
+
+            <button
+                type="button"
+                onclick="showAuthChoice()"
+                class="back-btn">
+
+                ← Back
+
+            </button>
+
+        </div>
+
+
+        <!-- SIGNUP -->
+
+        <div id="signupForm"
+             class="auth-form hidden">
+
+            <h2>Create Account</h2>
+
+            <p>
+                Create your BookMyTicket account.
+            </p>
+
+            <input
+                type="text"
+                id="signupUsername"
+                placeholder="Choose username"
+                autocomplete="username">
+
+            <input
+                type="password"
+                id="signupPassword"
+                placeholder="Create password"
+                autocomplete="new-password">
+
+            <input
+                type="password"
+                id="signupConfirmPassword"
+                placeholder="Confirm password"
+                autocomplete="new-password">
+
+            <button
+                type="button"
+                onclick="signupUser()"
+                class="primary-btn">
+
+                Create Account
+
+            </button>
+
+            <p id="signupMessage"
+               class="message">
+            </p>
+
+            <button
+                type="button"
+                onclick="showAuthChoice()"
+                class="back-btn">
+
+                ← Back
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     MAIN APPLICATION
+===================================================== -->
+
+<div id="app"
+     class="hidden">
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            🚌 BookMyTicket
+        </div>
+
+
+        <nav>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#search">
+                Search
+            </a>
+
+            <a href="#booking">
+                Booking
+            </a>
+
+            <span id="welcomeUser">
+            </span>
+
+            <button
+                type="button"
+                onclick="logoutUser()"
+                class="logout-btn">
+
+                Logout
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =================================================
+         HOME
+    ================================================== -->
+
+    <section id="home"
+             class="hero">
+
+        <div class="hero-content">
+
+            <span class="hero-label">
+                BOOK YOUR JOURNEY
+            </span>
+
+            <h1>
+                Travel Easy.<br>
+                Travel Better.
+            </h1>
+
+            <p>
+                Search available buses, select your
+                preferred seat and book your journey
+                quickly and easily.
+            </p>
+
+            <button
+                type="button"
+                onclick="goToSearch()"
+                class="hero-btn">
+
+                Search Buses
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         FEATURES
+    ================================================== -->
+
+    <section class="features">
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                🔎
+            </div>
+
+            <h3>
+                Easy Search
+            </h3>
+
+            <p>
+                Find buses between your boarding
+                and destination points.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                💺
+            </div>
+
+            <h3>
+                Choose Your Seat
+            </h3>
+
+            <p>
+                Select up to five seats according
+                to your preference.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                🎫
+            </div>
+
+            <h3>
+                Quick Booking
+            </h3>
+
+            <p>
+                See your complete ticket price
+                before confirming.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         SEARCH
+    ================================================== -->
+
+    <section id="search"
+             class="section">
+
+        <div class="section-heading">
+
+            <span>
+                FIND YOUR BUS
+            </span>
+
+            <h2>
+                Where are you going?
+            </h2>
+
+            <p>
+                Enter your boarding and destination points.
+            </p>
+
+        </div>
+
+
+        <div class="search-card">
+
+            <div class="input-group">
+
+                <label>
+                    BOARDING POINT
+                </label>
+
+                <input
+                    type="text"
+                    id="from"
+                    placeholder="Example: Hyderabad">
+
+            </div>
+
+
+            <div class="arrow">
+                →
+            </div>
+
+
+            <div class="input-group">
+
+                <label>
+                    DESTINATION
+                </label>
+
+                <input
+                    type="text"
+                    id="to"
+                    placeholder="Example: Vijayawada">
+
+            </div>
+
+
+            <button
+                type="button"
+                onclick="searchBuses()"
+                class="search-btn">
+
+                🔍 Search
+
+            </button>
+
+        </div>
+
+
+        <!-- RESULTS -->
+
+        <div id="results"
+             class="results">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         ADD LOCATION
+    ================================================== -->
+
+    <section class="add-location">
+
+        <div>
+
+            <span>
+                ADMIN / LOCATION
+            </span>
+
+            <h2>
+                Need to add a new route?
+            </h2>
+
+            <p>
+                Add a bus location to the current
+                browser session.
+            </p>
+
+        </div>
+
+
+        <button
+            type="button"
+            onclick="showAddLocation()">
+
+            + Add Location
+
+        </button>
+
+    </section>
+
+
+
+    <!-- ADD LOCATION FORM -->
+
+    <div id="addLocationModal"
+         class="modal hidden">
+
+        <div class="modal-card">
+
+            <button
+                type="button"
+                class="close-btn"
+                onclick="closeAddLocation()">
+
+                ×
+
+            </button>
+
+            <h2>
+                Add New Location
+            </h2>
+
+            <p>
+                Enter the same fields used by your
+                locations.txt file.
+            </p>
+
+
+            <input
+                id="newBusId"
+                placeholder="Bus ID">
+
+
+            <input
+                id="newFrom"
+                placeholder="From">
+
+
+            <input
+                id="newTo"
+                placeholder="To">
+
+
+            <input
+                id="newServiceType"
+                placeholder="Service Type">
+
+
+            <input
+                id="newDeparture"
+                placeholder="Departure">
+
+
+            <input
+                id="newDistance"
+                placeholder="Distance KM">
+
+
+            <input
+                id="newAdultFare"
+                placeholder="Adult Fare">
+
+
+            <input
+                id="newChildFare"
+                placeholder="Child Fare">
+
+
+            <button
+                type="button"
+                onclick="addLocation()"
+                class="primary-btn">
+
+                Add Location
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =================================================
+         SEAT SECTION
+    ================================================== -->
+
+    <section id="booking"
+             class="seat-section hidden">
+
+        <div class="section-heading">
+
+            <span>
+                SELECT YOUR SEAT
+            </span>
+
+            <h2>
+                Choose Your Seats
+            </h2>
+
+            <p>
+                You can select between 1 and 5 seats.
+            </p>
+
+        </div>
+
+
+        <div class="seat-layout">
+
+
+            <!-- BUS -->
+
+            <div class="bus-container">
+
+                <div class="driver">
+                    🚍 DRIVER
+                </div>
+
+
+                <div class="seat-legend">
+
+                    <span>
+                        <i class="available"></i>
+                        Available
+                    </span>
+
+                    <span>
+                        <i class="selected"></i>
+                        Selected
+                    </span>
+
+                    <span>
+                        <i class="booked"></i>
+                        Booked
+                    </span>
+
+                </div>
+
+
+                <div id="seats"
+                     class="seats">
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SUMMARY -->
+
+            <div class="summary-card">
+
+                <h3>
+                    Booking Summary
+                </h3>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        From
+                    </span>
+
+                    <strong id="summaryFrom">
+                        -
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        To
+                    </span>
+
+                    <strong id="summaryTo">
+                        -
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Bus
+                    </span>
+
+                    <strong id="summaryBus">
+                        -
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Seats
+                    </span>
+
+                    <strong id="summarySeats">
+                        -
+                    </strong>
+
+                </div>
+
+
+                <hr>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Ticket Price
+                    </span>
+
+                    <strong>
+                        ₹<span id="ticketPrice">
+                            0
+                        </span>
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Convenience Fee
+                    </span>
+
+                    <strong>
+                        ₹<span id="convenienceFee">
+                            0
+                        </span>
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-row total">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong>
+                        ₹<span id="summaryTotal">
+                            0
+                        </span>
+                    </strong>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    onclick="confirmBooking()"
+                    class="primary-btn">
+
+                    Confirm Booking
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         TICKET
+    ================================================== -->
+
+    <section id="ticketSection"
+             class="ticket-section hidden">
+
+        <div class="ticket">
+
+            <div class="ticket-header">
+
+                <span>
+                    BOOKMYTICKET
+                </span>
+
+                <strong>
+                    CONFIRMED
+                </strong>
+
+            </div>
+
+
+            <div class="ticket-icon">
+                🎫
+            </div>
+
+
+            <h2>
+                Booking Confirmed!
+            </h2>
+
+
+            <p>
+                Have a safe and happy journey.
+            </p>
+
+
+            <div class="ticket-details">
+
+                <div>
+                    <span>
+                        Passenger
+                    </span>
+
+                    <strong id="ticketPassenger">
+                        -
+                    </strong>
+                </div>
+
+
+                <div>
+                    <span>
+                        Bus
+                    </span>
+
+                    <strong id="ticketBus">
+                        -
+                    </strong>
+                </div>
+
+
+                <div>
+                    <span>
+                        Route
+                    </span>
+
+                    <strong id="ticketRoute">
+                        -
+                    </strong>
+                </div>
+
+
+                <div>
+                    <span>
+                        Seats
+                    </span>
+
+                    <strong id="ticketSeats">
+                        -
+                    </strong>
+                </div>
+
+
+                <div>
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="ticketTotal">
+                        -
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <button
+                type="button"
+                onclick="startNewBooking()"
+                class="primary-btn">
+
+                Book Another Ticket
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         FOOTER
+    ================================================== -->
+
+    <footer>
+
+        <div class="footer-logo">
+            🚌 BookMyTicket
+        </div>
+
+        <p>
+            Your journey, our responsibility.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#search">
+                Search
+            </a>
+
+            <a href="#booking">
+                Booking
+            </a>
+
+        </div>
+
+        <small>
+            © 2026 BookMyTicket
+        </small>
+
+    </footer>
+
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

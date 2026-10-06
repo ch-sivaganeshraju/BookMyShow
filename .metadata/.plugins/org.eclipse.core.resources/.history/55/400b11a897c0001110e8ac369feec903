@@ -1,0 +1,1105 @@
+BUS_ID|FROM|TO|SERVICE_TYPE|DEPARTURE|DISTANCE_KM|ADULT_FARE|CHILD_FARE
+
+GNT001|Guntur|Kondaveedu Kota|Pallevelugu|08:00,10:00,12:30,14:00,15:30,17:30,19:00,20:30|35|13|7
+GNT002|Macherla|Nagarjunasagar|Pallevelugu|Every 15 min|47|17|9
+GNT003|Macherla|Pochampad Project|Express|Every 45 min,05:00-20:00|33|13|7
+GNT004|Guntur|Undavalli Caves,Vijayawada|Pallevelugu|Every 10 min,04:30-22:30|30|11|6
+GNT005|Guntur|Amaravati|Pallevelugu|Every 20 min,04:30-22:00|38|14|7
+GNT006|Guntur|Amaravati|Express|05:30,06:20,07:10,08:00,08:50,09:40,10:30,11:20,12:10,13:00,14:00,14:30,15:30,16:30,17:10,18:00,19:00,19:40|38|14|7
+GNT007|Guntur|Amaravati|Pallevelugu|Every 15 min,04:30-22:00|38|14|7
+GNT008|Guntur|Mangalagiri|Pallevelugu|Every 5 min,04:30-22:30|33|13|7
+GNT009|Narasaraopet|Kotappakonda|Pallevelugu|Every 20 min,05:00-20:00|15|6|13
+GNT010|Narasaraopet|Kotappakonda|Pallevelugu|07:35,08:30,12:00,14:00,16:50,19:15|17|11|6
+GNT011|Chilakaluripet|Kotappakonda|Pallevelugu|Every 20 min,05:00-20:00|17|--|--
+GNT012|Guntur|Ponnur|Pallevelugu|Every 10 min,05:00-22:00|30|11|6
+GNT013|Guntur|Ponnur|Express|Every 10 min,05:00-22:00|30|12|6
+
+PLN001|Macherla|Nagarjunasagar|Pallevelugu|Every 15 min|47|17|9
+PLN002|Macherla|Pochampad Project|Express|Every 45 min,05:00-20:00|33|13|7
+PLN003|Narasaraopet|Kotappakonda|Pallevelugu|Every 20 min,05:00-20:00|15|6|--
+PLN004|Narasaraopet|Kotappakonda|Pallevelugu|07:35,08:30,12:00,14:00,16:50,19:15|17|11|6
+PLN005|Chilakaluripet|Kotappakonda|Pallevelugu|Every 20 min,05:00-20:00|17|--|--
+PLN006|Macherla|Chilakaluripet|Pallevelugu|Daily service|--|--|--
+PLN007|Macherla|Guntur|Express|Daily service|131|180|--
+PLN008|Macherla|Markapuram|Pallevelugu|Daily service|--|--|--
+PLN009|Macherla|Srisailam|Pallevelugu|Daily service|--|--|--
+PLN010|Narasaraopeta|Chirala|Pallevelugu|Daily service|--|--|--
+PLN011|Narasaraopeta|Ongole|Pallevelugu|Daily service|--|--|--
+PLN012|Narasaraopeta|Guntur|Ultra Deluxe|Daily service|--|--|--
+PLN013|Piduguralla|Guntur|Pallevelugu|Daily service|--|--|--
+PLN014|Piduguralla|Macherla|Pallevelugu|Daily service|--|--|--
+PLN015|Piduguralla|Narasaraopet|Pallevelugu|Daily service|--|--|--
+PLN016|Piduguralla|Vinukonda|Pallevelugu|Daily service|--|--|--
+PLN017|Sattenapalli|Narasaraopet|Pallevelugu|Daily service|--|--|--
+
+VJA001|Avanigadda|Hamsaladeevi|Pallevelugu|05:15,07:10,09:00,10:20,12:30,15:10,16:45,18:15,22:15|23|9|6
+VJA002|Avanigadda|Srikakulam|Pallevelugu|06:05,08:00,08:25,12:10,13:40,14:25,16:15,22:25|15|6|3
+VJA003|Vijayawada|Srikakulam|Pallevelugu|05:00,07:45,14:40,15:30,17:20,19:40|58|20|10
+VJA004|Avanigadda|Pedakallepalli|Pallevelugu|06:35,07:45,08:30,09:40,11:00,13:15,13:55,15:10,16:10,17:40,19:00,20:05,22:10|8|4|3
+VJA005|Vijayawada|Pedakallepalli|Pallevelugu|11:30,20:15|85|28|14
+VJA006|Avanigadda|Mopidevi|Pallevelugu|Every 15 min|7|4|3
+VJA007|Vijayawada|Mopidevi|Deluxe|03:30-22:30|85|37|19
+VJA008|Vijayawada|Mopidevi|Express|Every 15 min|30|30|15
+VJA009|Vijayawada|Mopidevi|Pallevelugu|Every 15 min|--|28|14
+VJA010|Avanigadda|Vijayawada|Super Luxury|Every 20 min|88|46|23
+VJA011|Avanigadda|Vijayawada|Deluxe|Every 20 min|88|40|20
+VJA012|Avanigadda|Vijayawada|Express|Every 20 min|88|36|18
+VJA013|Avanigadda|Vijayawada|Pallevelugu|Every 20 min|88|32|16
+VJA014|Vijayawada|Machilipatnam|Deluxe|Every 20 min|72|33|17
+VJA015|Vijayawada|Machilipatnam|Express|Every 20 min|72|29|15
+VJA016|Vijayawada|Machilipatnam|Pallevelugu|Every 15 min|72|27|14
+VJA017|Avanigadda|Penuganchiprolu|Fast Service|06:15|155|56|28
+VJA018|Jaggaiahpeta|Penuganchiprolu|Pallevelugu|05:30,06:15,07:15,07:45,08:15,08:45,09:15,10:00,10:45,11:30,11:45,12:15,13:00,13:30,14:15,14:45,15:30,16:15,17:00,17:45,18:30,19:15,20:00|20|7|4
+VJA019|Vijayawada|Penuganchiprolu|Pallevelugu|Every 45 min|67|23|12
+VJA020|Jaggaiahpeta|Vedadri|Pallevelugu|05:30,07:30,09:30,14:30,16:30,18:30,20:00|12|6|3
+VJA021|Vijayawada|Vedadri|Pallevelugu|10:30,16:30|76|26|13
+VJA022|Vijayawada|Agiripalli|Pallevelugu|Every 30 min,04:00-22:15|30|11|6
+VJA023|Vijayawada|Agiripalli|Express|Every 30 min,04:00-22:15|30|12|6
+VJA024|Vijayawada|Agiripalli|Super Luxury|Every 15 min|30|38|19
+VJA025|Vijayawada|Machilipatnam|Deluxe|Round the clock|30|32|16
+VJA026|Vijayawada|Machilipatnam|Express|Round the clock|30|27|14
+VJA027|Vijayawada|Machilipatnam|Pallevelugu|Round the clock|30|24|12
+VJA028|Vijayawada|Nemali|Pallevelugu|20:15|97|32|16
+VJA029|Tiruvur|Nemali|Pallevelugu|08:20,12:30,15:45|35|13|7
+VJA030|Vijayawada|Pedaoutpalli|Pallevelugu|Every 15 min|29|10|5
+
+RJM001|Rajahmundry|Rampachodavaram|Pallevelugu|04:20,04:30,06:00|58|21|11
+RJM002|Rajahmundry|Rampachodavaram|Express|08:00,10:10,12:00,12:50,14:30,14:45,15:20,16:00,16:30,17:00,17:45,18:15|58|24|12
+RJM003|Rajahmundry|Kadiyapulanka|Pallevelugu|Every 15 min|--|6|3
+RJM004|Rajahmundry|Road Cum Rail Bridge|Pallevelugu|Every 5 min|5|3|3
+RJM005|Rajahmundry|Road Cum Rail Bridge|Express|Every 5 min|5|3|3
+RJM006|Rajahmundry|Godavari River|Pallevelugu|Every 5 min|5|3|3
+RJM007|Rajahmundry|Godavari River|Express|Every 5 min|5|3|3
+RJM008|Rajahmundry|Dowlaiswaram Anicut|Ordinary|Every 5 min|5|3|3
+RJM009|Rajahmundry|Dowlaiswaram Anicut|Express|Every 5 min|5|3|3
+RJM010|Kakinada|Deep Water Port|Pallevelugu|--|5|3|3
+RJM011|Kakinada|Beach|Pallevelugu|--|5|3|3
+RJM012|Kakinada|Nagarjuna Fertilizers|Pallevelugu|--|5|3|3
+RJM013|Kakinada|Godavari Fertilizers|Pallevelugu|--|5|3|3
+
+KUR001|Atmakur|Srisailam|Super Luxury|05:00|120|63|32
+KUR002|Atmakur|Srisailam|Express|03:15,05:00,09:30,12:00,13:30,14:30,16:30|120|48|24
+KUR003|Atmakur|Srisailam|Pallevelugu|06:30,07:30,08:30,10:30,12:45,17:40|120|42|21
+KUR004|Kurnool|Srisailam|Super Luxury|03:00|191|100|50
+KUR005|Kurnool|Srisailam|Pallevelugu|08:00|191|68|34
+KUR006|Nandyal|Srisailam|Express|06:30,08:00,10:45,14:30,16:00|172|69|35
+KUR007|Nandyal|Srisailam|Pallevelugu|06:30,10:45,16:00|172|62|31
+KUR008|Bangalore|Srisailam|Super Luxury|17:20|555|296|148
+KUR009|Kurnool|Manthralayam|Express|01:00,04:15,09:30,13:15,19:45|91|37|19
+KUR010|Kurnool|Manthralayam|Deluxe|05:15|91|41|22
+KUR011|Yemmiganur|Manthralayam|Express|Every 30 min|24|10|6
+KUR012|Yemmiganur|Manthralayam|Pallevelugu|Every 30 min|24|9|6
+KUR013|Kurnool|Alampur|Pallevelugu|05:00,05:45,06:30,07:00,07:30,08:05,08:30,09:00,09:30,10:00,10:35,11:05,11:35,12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30,16:00,16:40,17:20,18:00,19:00,19:45,21:30|29|11|6
+KUR014|Nandyal|Mahanandi|Pallevelugu|04:30,06:00,06:40,07:25,08:00,08:40,09:20,10:00,10:40,11:05,11:30,12:20,13:00,13:40,14:00,14:20,14:45,15:00,15:40,16:20,17:00,17:15,18:20,18:45,19:00,20:00,20:40,22:00|19|7|4
+KUR015|Allagadda|Ahobilam|Pallevelugu|05:00,05:30,06:30,07:30,08:30,09:30,10:30,11:30,12:30,13:30,14:30,15:30,16:30,17:30,18:30,19:30,20:30|12|9|3
+KUR016|Banaganapalli|Yaganti|Pallevelugu|08:30,15:45|12|6|3
+
+KDP001|Mydukur|Brahmam gari Mattham|--|05:30,06:30,07:30,08:45,09:45,12:00,13:30,15:00,16:30,18:00,19:30,21:45|37|--|--
+KDP002|Kadapa|Sidhout|--|Every 20 min|22|--|--
+KDP003|Jammalamadugu|Gandikota|--|06:30,09:30,13:45,17:30,21:30|25|--|--
+KDP004|Vempally|Gandi|--|Every 20 min|10|--|--
+KDP005|Kadapa|Ontimitta|--|08:00|25|--|--
+KDP006|Kadapa|Pushpagiri|--|05:45,17:15|14|--|--
+KDP007|Rajampet|Hatyarala|--|06:00,12:00,16:00|8|--|--
+KDP008|Rajampet|Nandalur|--|Every 15 min,up to Tallapaka|12|--|--0|Macherla|Vijayawada|Express|4:00|170|200|100|
+BUS_ID|FROM|TO|SERVICE_TYPE|DEPARTURE|DISTANCE_KM|ADULT_FARE|CHILD_FARE
+IND0001|Cuttack|Shimla|Ordinary|23:30|621|750|410
+IND0002|Pune|Jammu|Volvo Multi-Axle|03:00|1329|5050|2780
+IND0003|Mangaluru|Gurugram|Ordinary|02:15|596|720|400
+IND0004|Vijayawada|Kolkata|Ordinary|17:15|1450|1740|960
+IND0005|Guwahati|Tirupati|AC Sleeper|07:45|1326|3320|1830
+IND0006|Ahmedabad|Delhi|Express|22:45|816|1310|720
+IND0007|Ahmedabad|Amritsar|Express|10:00|309|490|270
+IND0008|Gwalior|Dehradun|Super Fast|11:30|208|400|220
+IND0009|Imphal|Coimbatore|AC Luxury|03:45|281|840|460
+IND0010|Kochi|Surat|Volvo Multi-Axle|19:30|1302|4950|2720
+IND0011|Varanasi|Shillong|Ordinary|01:15|712|850|470
+IND0012|Lucknow|Pune|Ordinary|12:30|1048|1260|690
+IND0013|Cuttack|Bhopal|Express|11:30|549|880|480
+IND0014|Ranchi|Ahmedabad|Volvo Multi-Axle|21:00|1367|5190|2850
+IND0015|Cuttack|Agra|AC Luxury|23:15|454|1360|750
+IND0016|Coimbatore|Gwalior|Super Fast|20:15|784|1490|820
+IND0017|Chandigarh|Pune|Ordinary|10:45|668|800|440
+IND0018|Jaipur|Mumbai|AC Luxury|22:30|555|1660|910
+IND0019|Patna|Hyderabad|AC Sleeper|20:45|412|1030|570
+IND0020|Nashik|Jammu|Express|23:30|1317|2110|1160
+IND0021|Mangaluru|Kozhikode|AC Sleeper|11:15|403|1010|560
+IND0022|Vijayawada|Hyderabad|Ordinary|01:00|433|520|290
+IND0023|Cuttack|Agra|Volvo Multi-Axle|13:00|908|3450|1900
+IND0024|Gwalior|Kolkata|AC Sleeper|16:30|1253|3130|1720
+IND0025|Delhi|Jamshedpur|Volvo Multi-Axle|03:30|1432|5440|2990
+IND0026|Goa|Shimla|Super Fast|13:15|1049|1990|1090
+IND0027|Delhi|Imphal|Volvo Multi-Axle|08:15|1159|4400|2420
+IND0028|Dehradun|Cuttack|Super Fast|20:15|433|820|450
+IND0029|Bhopal|Agra|AC Luxury|16:00|1346|4040|2220
+IND0030|Rajkot|Hyderabad|Ordinary|03:30|749|900|500
+IND0031|Nagpur|Chandigarh|Express|18:00|295|470|260
+IND0032|Imphal|Hyderabad|Ordinary|17:15|382|460|250
+IND0033|Ranchi|Madurai|AC Luxury|05:30|1200|3600|1980
+IND0034|Kolkata|Mangaluru|Express|17:15|758|1210|670
+IND0035|Bengaluru|Ranchi|Volvo Multi-Axle|11:45|1179|4480|2460
+IND0036|Chennai|Shimla|Express|07:00|812|1300|720
+IND0037|Noida|Kozhikode|AC Luxury|07:15|134|400|220
+IND0038|Jaipur|Shillong|Volvo Multi-Axle|01:15|258|980|540
+IND0039|Gurugram|Goa|Ordinary|16:15|690|830|460
+IND0040|Ranchi|Hyderabad|Express|17:15|1289|2060|1130
+IND0041|Thiruvananthapuram|Madurai|Express|15:45|509|810|450
+IND0042|Dehradun|Ranchi|AC Sleeper|11:45|961|2400|1320
+IND0043|Coimbatore|Imphal|Ordinary|21:00|244|290|160
+IND0044|Bengaluru|Imphal|Super Fast|03:15|512|970|530
+IND0045|Varanasi|Tirupati|AC Sleeper|04:45|495|1240|680
+IND0046|Ahmedabad|Coimbatore|Express|02:45|1247|2000|1100
+IND0047|Dehradun|Chandigarh|Volvo Multi-Axle|17:00|311|1180|650
+IND0048|Nagpur|Agra|AC Sleeper|15:45|557|1390|760
+IND0049|Bengaluru|Chandigarh|Express|12:00|919|1470|810
+IND0050|Nashik|Coimbatore|Super Fast|13:45|437|830|460
+IND0051|Varanasi|Surat|Express|01:00|762|1220|670
+IND0052|Chandigarh|Kozhikode|AC Sleeper|16:15|236|590|320
+IND0053|Vijayawada|Lucknow|Express|02:00|601|960|530
+IND0054|Bengaluru|Shimla|AC Luxury|07:00|1388|4160|2290
+IND0055|Lucknow|Mysuru|Volvo Multi-Axle|18:30|654|2490|1370
+IND0056|Mumbai|Ranchi|Volvo Multi-Axle|10:15|663|2520|1390
+IND0057|Bengaluru|Jammu|Volvo Multi-Axle|20:30|1056|4010|2210
+IND0058|Rajkot|Jaipur|Ordinary|14:00|270|320|180
+IND0059|Tirupati|Mumbai|AC Luxury|08:15|834|2500|1380
+IND0060|Jaipur|Nagpur|Super Fast|09:15|1017|1930|1060
+IND0061|Tirupati|Shillong|Super Fast|19:00|1487|2830|1560
+IND0062|Kochi|Vadodara|Volvo Multi-Axle|03:15|661|2510|1380
+IND0063|Shimla|Dehradun|Volvo Multi-Axle|17:15|677|2570|1410
+IND0064|Surat|Kolkata|Express|22:30|536|860|470
+IND0065|Jamshedpur|Cuttack|Super Fast|16:45|634|1200|660
+IND0066|Chandigarh|Lucknow|Volvo Multi-Axle|13:30|210|800|440
+IND0067|Delhi|Goa|Express|20:30|450|720|400
+IND0068|Agartala|Chennai|AC Luxury|22:45|1268|3800|2090
+IND0069|Delhi|Shimla|Ordinary|22:15|1237|1480|810
+IND0070|Gurugram|Bhopal|AC Luxury|17:15|1000|3000|1650
+IND0071|Jammu|Gurugram|Super Fast|11:00|852|1620|890
+IND0072|Mumbai|Jamshedpur|Express|21:00|844|1350|740
+IND0073|Kochi|Mysuru|AC Luxury|23:15|604|1810|1000
+IND0074|Agra|Kanpur|AC Sleeper|00:15|800|2000|1100
+IND0075|Mysuru|Ranchi|Volvo Multi-Axle|07:30|446|1690|930
+IND0076|Guwahati|Dehradun|AC Sleeper|01:45|575|1440|790
+IND0077|Varanasi|Coimbatore|Super Fast|09:15|576|1090|600
+IND0078|Noida|Ranchi|Express|12:30|690|1100|600
+IND0079|Jaipur|Ahmedabad|Super Fast|20:45|1218|2310|1270
+IND0080|Goa|Noida|Ordinary|08:15|1309|1570|860
+IND0081|Nashik|Gurugram|Ordinary|19:45|827|990|540
+IND0082|Imphal|Rajkot|AC Sleeper|19:00|908|2270|1250
+IND0083|Thiruvananthapuram|Varanasi|Super Fast|01:45|123|230|130
+IND0084|Visakhapatnam|Tirupati|Volvo Multi-Axle|23:15|865|3290|1810
+IND0085|Mangaluru|Jaipur|Volvo Multi-Axle|10:30|1478|5620|3090
+IND0086|Shimla|Imphal|Super Fast|16:30|1485|2820|1550
+IND0087|Mysuru|Rajkot|AC Sleeper|22:30|1255|3140|1730
+IND0088|Jammu|Varanasi|AC Sleeper|21:45|476|1190|650
+IND0089|Bhubaneswar|Thiruvananthapuram|Super Fast|12:00|742|1410|780
+IND0090|Surat|Mumbai|AC Sleeper|18:30|1072|2680|1470
+IND0091|Chennai|Jamshedpur|Express|16:45|467|750|410
+IND0092|Ranchi|Lucknow|Super Fast|16:30|311|590|320
+IND0093|Nagpur|Jamshedpur|Super Fast|07:15|421|800|440
+IND0094|Noida|Gurugram|Express|15:00|1052|1680|920
+IND0095|Mysuru|Cuttack|AC Luxury|06:45|1132|3400|1870
+IND0096|Bengaluru|Nagpur|Express|20:00|338|540|300
+IND0097|Mangaluru|Pune|Express|22:45|222|360|200
+IND0098|Kochi|Nagpur|Ordinary|14:15|1071|1290|710
+IND0099|Ranchi|Visakhapatnam|AC Luxury|19:30|1026|3080|1690
+IND0100|Bhubaneswar|Imphal|AC Luxury|13:45|445|1340|740
+IND0101|Agartala|Madurai|AC Sleeper|08:15|1425|3560|1960
+IND0102|Ahmedabad|Visakhapatnam|AC Sleeper|20:15|682|1700|940
+IND0103|Chennai|Jaipur|Volvo Multi-Axle|09:15|676|2570|1410
+IND0104|Goa|Rajkot|AC Luxury|02:15|428|1280|700
+IND0105|Pune|Gwalior|Volvo Multi-Axle|04:15|251|950|520
+IND0106|Mysuru|Goa|AC Luxury|14:45|247|740|410
+IND0107|Mumbai|Mysuru|AC Sleeper|18:00|1299|3250|1790
+IND0108|Gwalior|Madurai|Ordinary|11:30|918|1100|600
+IND0109|Mysuru|Tirupati|Volvo Multi-Axle|23:15|1119|4250|2340
+IND0110|Pune|Ahmedabad|AC Sleeper|15:00|916|2290|1260
+IND0111|Goa|Ranchi|Volvo Multi-Axle|12:15|1077|4090|2250
+IND0112|Jammu|Bhubaneswar|AC Luxury|00:45|1332|4000|2200
+IND0113|Thiruvananthapuram|Ranchi|Ordinary|02:45|397|480|260
+IND0114|Coimbatore|Kanpur|Ordinary|08:45|790|950|520
+IND0115|Mumbai|Coimbatore|Super Fast|10:45|689|1310|720
+IND0116|Mysuru|Nashik|Ordinary|15:00|1224|1470|810
+IND0117|Chandigarh|Indore|Express|20:00|1454|2330|1280
+IND0118|Gurugram|Noida|Express|06:00|1392|2230|1230
+IND0119|Amritsar|Nagpur|Express|15:00|1275|2040|1120
+IND0120|Mumbai|Coimbatore|Volvo Multi-Axle|08:30|463|1760|970
+IND0121|Kolkata|Agartala|Volvo Multi-Axle|03:15|757|2880|1580
+IND0122|Dehradun|Kozhikode|Ordinary|09:45|932|1120|620
+IND0123|Shillong|Varanasi|Ordinary|18:15|328|390|210
+IND0124|Guwahati|Vadodara|Volvo Multi-Axle|19:00|1279|4860|2670
+IND0125|Gurugram|Indore|AC Luxury|13:30|261|780|430
+IND0126|Vijayawada|Patna|Super Fast|00:45|1123|2130|1170
+IND0127|Dehradun|Mangaluru|Super Fast|20:45|433|820|450
+IND0128|Mangaluru|Kanpur|Volvo Multi-Axle|16:30|1381|5250|2890
+IND0129|Tirupati|Madurai|AC Sleeper|13:30|780|1950|1070
+IND0130|Nagpur|Lucknow|Super Fast|14:15|1071|2030|1120
+IND0131|Thiruvananthapuram|Bhubaneswar|Volvo Multi-Axle|12:30|178|680|370
+IND0132|Hyderabad|Rajkot|Express|15:15|846|1350|740
+IND0133|Nashik|Goa|Super Fast|19:30|1258|2390|1310
+IND0134|Delhi|Visakhapatnam|Express|02:15|952|1520|840
+IND0135|Hyderabad|Kochi|Express|22:45|1442|2310|1270
+IND0136|Shillong|Hyderabad|AC Sleeper|00:00|722|1800|990
+IND0137|Pune|Bengaluru|Volvo Multi-Axle|07:30|1479|5620|3090
+IND0138|Kozhikode|Bhopal|AC Sleeper|17:30|991|2480|1360
+IND0139|Agartala|Kochi|Super Fast|11:45|674|1280|700
+IND0140|Vadodara|Nashik|Express|03:15|766|1230|680
+IND0141|Shimla|Agartala|AC Luxury|22:15|512|1540|850
+IND0142|Mumbai|Agartala|AC Sleeper|08:30|325|810|450
+IND0143|Varanasi|Surat|Express|11:15|739|1180|650
+IND0144|Delhi|Shillong|AC Luxury|04:30|213|640|350
+IND0145|Chandigarh|Kochi|Super Fast|22:15|1426|2710|1490
+IND0146|Hyderabad|Dehradun|Ordinary|18:30|1081|1300|720
+IND0147|Madurai|Chennai|Super Fast|05:00|637|1210|670
+IND0148|Madurai|Shimla|Ordinary|12:45|271|330|180
+IND0149|Thiruvananthapuram|Cuttack|Volvo Multi-Axle|01:15|425|1620|890
+IND0150|Thiruvananthapuram|Vadodara|Ordinary|07:00|1262|1510|830
+IND0151|Mysuru|Kolkata|AC Luxury|19:15|1190|3570|1960
+IND0152|Gwalior|Chennai|AC Sleeper|09:45|745|1860|1020
+IND0153|Thiruvananthapuram|Bhubaneswar|Ordinary|19:00|545|650|360
+IND0154|Cuttack|Mumbai|Super Fast|21:00|441|840|460
+IND0155|Nagpur|Kanpur|AC Luxury|02:15|125|380|210
+IND0156|Mysuru|Chennai|Volvo Multi-Axle|19:45|716|2720|1500
+IND0157|Gurugram|Pune|Super Fast|22:30|1049|1990|1090
+IND0158|Jaipur|Jamshedpur|Express|08:15|990|1580|870
+IND0159|Shimla|Tirupati|Express|20:15|664|1060|580
+IND0160|Amritsar|Jaipur|Ordinary|05:30|1338|1610|890
+IND0161|Agartala|Thiruvananthapuram|Super Fast|14:00|1079|2050|1130
+IND0162|Guwahati|Vadodara|Volvo Multi-Axle|12:30|1144|4350|2390
+IND0163|Tirupati|Hyderabad|AC Sleeper|02:00|1004|2510|1380
+IND0164|Agartala|Rajkot|AC Luxury|08:00|307|920|510
+IND0165|Pune|Jamshedpur|AC Luxury|18:00|1496|4490|2470
+IND0166|Ahmedabad|Thiruvananthapuram|Ordinary|05:45|1182|1420|780
+IND0167|Patna|Chennai|Super Fast|05:45|1420|2700|1490
+IND0168|Hyderabad|Lucknow|AC Sleeper|11:45|802|2000|1100
+IND0169|Rajkot|Ranchi|Ordinary|05:30|963|1160|640
+IND0170|Guwahati|Hyderabad|Super Fast|21:45|1246|2370|1300
+IND0171|Gurugram|Coimbatore|Ordinary|10:30|782|940|520
+IND0172|Shimla|Bengaluru|AC Luxury|00:45|966|2900|1600
+IND0173|Chandigarh|Varanasi|AC Luxury|11:45|1400|4200|2310
+IND0174|Chennai|Chandigarh|Express|08:15|709|1130|620
+IND0175|Chennai|Guwahati|AC Sleeper|03:00|1410|3520|1940
+IND0176|Kolkata|Nagpur|Volvo Multi-Axle|05:30|1248|4740|2610
+IND0177|Delhi|Kochi|AC Sleeper|02:15|352|880|480
+IND0178|Coimbatore|Shimla|Volvo Multi-Axle|04:45|717|2720|1500
+IND0179|Vijayawada|Shillong|Super Fast|13:45|1087|2070|1140
+IND0180|Nagpur|Coimbatore|AC Luxury|04:45|510|1530|840
+IND0181|Kolkata|Vijayawada|Volvo Multi-Axle|04:00|685|2600|1430
+IND0182|Mysuru|Goa|AC Luxury|08:00|699|2100|1160
+IND0183|Imphal|Vadodara|AC Luxury|18:45|424|1270|700
+IND0184|Chennai|Tirupati|AC Sleeper|11:30|1250|3120|1720
+IND0185|Tirupati|Gwalior|AC Sleeper|10:15|609|1520|840
+IND0186|Thiruvananthapuram|Gwalior|Express|13:00|771|1230|680
+IND0187|Agartala|Madurai|Volvo Multi-Axle|12:45|1479|5620|3090
+IND0188|Patna|Amritsar|AC Sleeper|01:15|1148|2870|1580
+IND0189|Kozhikode|Goa|Ordinary|14:00|1197|1440|790
+IND0190|Coimbatore|Delhi|Volvo Multi-Axle|04:45|1460|5550|3050
+IND0191|Amritsar|Jaipur|AC Sleeper|08:30|1396|3490|1920
+IND0192|Guwahati|Bengaluru|Volvo Multi-Axle|02:30|1212|4610|2540
+IND0193|Gwalior|Rajkot|Volvo Multi-Axle|22:45|1228|4670|2570
+IND0194|Gurugram|Bhubaneswar|Ordinary|07:30|585|700|390
+IND0195|Agartala|Lucknow|AC Sleeper|03:00|1028|2570|1410
+IND0196|Agra|Guwahati|Super Fast|00:00|784|1490|820
+IND0197|Chandigarh|Surat|Super Fast|11:45|418|790|430
+IND0198|Nagpur|Visakhapatnam|AC Sleeper|18:15|468|1170|640
+IND0199|Kanpur|Lucknow|AC Luxury|12:15|1139|3420|1880
+IND0200|Kozhikode|Amritsar|Express|14:30|1061|1700|940
+IND0201|Nashik|Ranchi|Ordinary|14:30|1239|1490|820
+IND0202|Agra|Jaipur|AC Sleeper|11:30|1428|3570|1960
+IND0203|Mangaluru|Guwahati|Super Fast|14:30|527|1000|550
+IND0204|Gwalior|Madurai|Ordinary|07:45|1291|1550|850
+IND0205|Indore|Thiruvananthapuram|Super Fast|22:30|164|310|170
+IND0206|Ranchi|Bengaluru|Super Fast|00:00|1361|2590|1420
+IND0207|Agartala|Hyderabad|Super Fast|07:30|568|1080|590
+IND0208|Cuttack|Varanasi|AC Luxury|08:15|1406|4220|2320
+IND0209|Dehradun|Cuttack|Volvo Multi-Axle|01:30|1022|3880|2130
+IND0210|Gurugram|Kozhikode|Super Fast|23:15|304|580|320
+IND0211|Surat|Rajkot|Volvo Multi-Axle|13:15|531|2020|1110
+IND0212|Jammu|Tirupati|Super Fast|16:30|456|870|480
+IND0213|Nashik|Madurai|Super Fast|23:30|355|670|370
+IND0214|Coimbatore|Jaipur|Express|07:45|1261|2020|1110
+IND0215|Bhopal|Lucknow|AC Sleeper|00:30|1218|3040|1670
+IND0216|Shimla|Coimbatore|Super Fast|21:30|1317|2500|1380
+IND0217|Gwalior|Cuttack|Super Fast|03:15|1085|2060|1130
+IND0218|Noida|Bhubaneswar|AC Luxury|10:15|1446|4340|2390
+IND0219|Jaipur|Cuttack|AC Sleeper|22:30|1449|3620|1990
+IND0220|Mysuru|Shimla|Express|01:00|743|1190|650
+IND0221|Hyderabad|Shimla|Ordinary|07:15|915|1100|600
+IND0222|Coimbatore|Bhopal|Volvo Multi-Axle|23:45|1322|5020|2760
+IND0223|Agartala|Imphal|Express|13:00|1122|1800|990
+IND0224|Bhubaneswar|Mysuru|Super Fast|01:30|564|1070|590
+IND0225|Chennai|Nagpur|Super Fast|03:30|1235|2350|1290
+IND0226|Patna|Indore|Ordinary|12:30|508|610|340
+IND0227|Shimla|Coimbatore|Ordinary|21:15|1434|1720|950
+IND0228|Cuttack|Kolkata|Ordinary|01:30|618|740|410
+IND0229|Jammu|Thiruvananthapuram|Express|02:15|1320|2110|1160
+IND0230|Mumbai|Pune|Super Fast|04:00|687|1310|720
+IND0231|Amritsar|Jammu|AC Luxury|08:15|345|1040|570
+IND0232|Ranchi|Noida|Express|00:30|607|970|530
+IND0233|Kozhikode|Rajkot|Ordinary|05:30|227|270|150
+IND0234|Jammu|Agartala|AC Sleeper|16:00|250|620|340
+IND0235|Madurai|Chennai|Super Fast|16:00|1045|1990|1090
+IND0236|Vijayawada|Pune|AC Luxury|01:30|1058|3170|1740
+IND0237|Patna|Noida|Ordinary|15:45|993|1190|650
+IND0238|Jamshedpur|Dehradun|AC Sleeper|22:45|270|680|370
+IND0239|Lucknow|Rajkot|AC Luxury|04:00|378|1130|620
+IND0240|Ahmedabad|Bhubaneswar|Volvo Multi-Axle|18:30|900|3420|1880
+IND0241|Kolkata|Visakhapatnam|Super Fast|14:45|323|610|340
+IND0242|Guwahati|Shimla|Volvo Multi-Axle|20:15|1000|3800|2090
+IND0243|Chennai|Pune|AC Sleeper|10:45|936|2340|1290
+IND0244|Mysuru|Imphal|Ordinary|10:45|760|910|500
+IND0245|Ranchi|Nashik|Super Fast|04:45|257|490|270
+IND0246|Lucknow|Mangaluru|Ordinary|23:30|386|460|250
+IND0247|Kochi|Chandigarh|AC Luxury|17:30|1492|4480|2460
+IND0248|Shimla|Mysuru|Super Fast|21:45|225|430|240
+IND0249|Surat|Kolkata|Super Fast|11:00|1303|2480|1360
+IND0250|Vijayawada|Mumbai|Express|21:45|579|930|510
+IND0251|Dehradun|Indore|AC Luxury|11:00|690|2070|1140
+IND0252|Thiruvananthapuram|Pune|AC Sleeper|17:00|1367|3420|1880
+IND0253|Ranchi|Guwahati|Super Fast|00:15|679|1290|710
+IND0254|Guwahati|Vadodara|Super Fast|11:00|491|930|510
+IND0255|Amritsar|Thiruvananthapuram|Volvo Multi-Axle|12:00|410|1560|860
+IND0256|Agartala|Cuttack|Ordinary|02:15|890|1070|590
+IND0257|Mysuru|Coimbatore|Super Fast|05:30|758|1440|790
+IND0258|Imphal|Rajkot|AC Luxury|19:00|227|680|370
+IND0259|Amritsar|Agra|AC Luxury|01:00|677|2030|1120
+IND0260|Chennai|Ranchi|AC Sleeper|15:45|968|2420|1330
+IND0261|Ahmedabad|Mumbai|AC Luxury|03:30|1000|3000|1650
+IND0262|Shimla|Surat|Volvo Multi-Axle|21:45|1199|4560|2510
+IND0263|Ranchi|Vadodara|Ordinary|07:45|1347|1620|890
+IND0264|Chandigarh|Delhi|Express|09:15|401|640|350
+IND0265|Nashik|Surat|Super Fast|03:00|1138|2160|1190
+IND0266|Agartala|Mangaluru|Express|04:45|1210|1940|1070
+IND0267|Shillong|Pune|AC Luxury|17:30|267|800|440
+IND0268|Bengaluru|Agartala|Ordinary|13:00|1061|1270|700
+IND0269|Jaipur|Rajkot|AC Luxury|13:45|1431|4290|2360
+IND0270|Mysuru|Surat|Ordinary|12:00|785|940|520
+IND0271|Agra|Bhubaneswar|AC Sleeper|22:30|300|750|410
+IND0272|Mangaluru|Dehradun|Express|13:45|1193|1910|1050
+IND0273|Lucknow|Bengaluru|Super Fast|23:30|573|1090|600
+IND0274|Goa|Agra|Ordinary|16:00|1206|1450|800
+IND0275|Vijayawada|Varanasi|Super Fast|11:15|603|1150|630
+IND0276|Dehradun|Amritsar|Super Fast|06:15|1353|2570|1410
+IND0277|Amritsar|Patna|Ordinary|05:45|1070|1280|700
+IND0278|Thiruvananthapuram|Kozhikode|AC Sleeper|21:30|1404|3510|1930
+IND0279|Rajkot|Amritsar|AC Sleeper|02:45|1025|2560|1410
+IND0280|Cuttack|Vadodara|Super Fast|18:00|840|1600|880
+IND0281|Vijayawada|Jaipur|Super Fast|14:45|197|370|200
+IND0282|Chandigarh|Bhopal|Super Fast|02:00|1379|2620|1440
+IND0283|Kolkata|Vijayawada|AC Sleeper|14:00|1041|2600|1430
+IND0284|Thiruvananthapuram|Patna|Express|10:45|1146|1830|1010
+IND0285|Amritsar|Chandigarh|AC Sleeper|03:30|292|730|400
+IND0286|Vijayawada|Patna|Express|01:15|1016|1630|900
+IND0287|Chennai|Visakhapatnam|AC Luxury|19:15|865|2600|1430
+IND0288|Bhopal|Surat|AC Sleeper|13:30|1344|3360|1850
+IND0289|Chandigarh|Cuttack|Volvo Multi-Axle|10:00|795|3020|1660
+IND0290|Dehradun|Kochi|Volvo Multi-Axle|12:30|636|2420|1330
+IND0291|Imphal|Ranchi|AC Luxury|04:30|286|860|470
+IND0292|Kozhikode|Ranchi|Express|11:30|1463|2340|1290
+IND0293|Guwahati|Ranchi|AC Sleeper|04:00|754|1880|1030
+IND0294|Kochi|Gwalior|Volvo Multi-Axle|10:15|1492|5670|3120
+IND0295|Guwahati|Agartala|Volvo Multi-Axle|16:00|1443|5480|3010
+IND0296|Ranchi|Mangaluru|AC Luxury|11:00|862|2590|1420
+IND0297|Vadodara|Kanpur|Express|10:45|513|820|450
+IND0298|Pune|Jammu|Express|02:30|327|520|290
+IND0299|Vijayawada|Tirupati|Volvo Multi-Axle|16:00|1475|5600|3080
+IND0300|Goa|Bhubaneswar|Express|19:45|435|700|390
+IND0301|Agra|Kanpur|Volvo Multi-Axle|19:15|1016|3860|2120
+IND0302|Gurugram|Mysuru|Super Fast|21:15|1029|1960|1080
+IND0303|Bhubaneswar|Surat|Volvo Multi-Axle|14:15|1213|4610|2540
+IND0304|Nagpur|Vadodara|AC Sleeper|06:30|1288|3220|1770
+IND0305|Chennai|Coimbatore|Super Fast|12:45|451|860|470
+IND0306|Varanasi|Kolkata|Express|08:00|1433|2290|1260
+IND0307|Madurai|Bhopal|AC Luxury|03:00|703|2110|1160
+IND0308|Lucknow|Agra|Super Fast|14:15|1015|1930|1060
+IND0309|Lucknow|Pune|AC Sleeper|11:00|969|2420|1330
+IND0310|Chandigarh|Bengaluru|AC Luxury|11:15|910|2730|1500
+IND0311|Lucknow|Bhopal|Express|00:30|322|520|290
+IND0312|Shillong|Patna|Super Fast|04:15|198|380|210
+IND0313|Surat|Madurai|Volvo Multi-Axle|04:45|1038|3940|2170
+IND0314|Bhubaneswar|Delhi|Ordinary|00:30|561|670|370
+IND0315|Amritsar|Kochi|Volvo Multi-Axle|19:45|347|1320|730
+IND0316|Surat|Nagpur|Super Fast|03:00|608|1160|640
+IND0317|Mysuru|Cuttack|AC Luxury|14:00|347|1040|570
+IND0318|Hyderabad|Kolkata|AC Luxury|00:15|414|1240|680
+IND0319|Surat|Mangaluru|Ordinary|19:30|612|730|400
+IND0320|Thiruvananthapuram|Mysuru|Express|21:00|1192|1910|1050
+IND0321|Bhopal|Jaipur|AC Luxury|17:00|919|2760|1520
+IND0322|Madurai|Gurugram|Volvo Multi-Axle|12:30|639|2430|1340
+IND0323|Agartala|Noida|Super Fast|02:30|613|1160|640
+IND0324|Imphal|Ranchi|Volvo Multi-Axle|03:30|393|1490|820
+IND0325|Gurugram|Indore|AC Luxury|10:15|1071|3210|1770
+IND0326|Guwahati|Madurai|Volvo Multi-Axle|05:15|249|950|520
+IND0327|Shillong|Coimbatore|Ordinary|09:15|209|250|140
+IND0328|Varanasi|Gurugram|Super Fast|09:45|1232|2340|1290
+IND0329|Madurai|Nashik|Ordinary|20:15|705|850|470
+IND0330|Indore|Chandigarh|Volvo Multi-Axle|10:30|374|1420|780
+IND0331|Bhopal|Mangaluru|AC Sleeper|23:45|911|2280|1250
+IND0332|Goa|Kanpur|AC Sleeper|22:45|872|2180|1200
+IND0333|Visakhapatnam|Ahmedabad|Ordinary|23:45|281|340|190
+IND0334|Mangaluru|Kolkata|Express|17:30|777|1240|680
+IND0335|Dehradun|Lucknow|Super Fast|21:30|747|1420|780
+IND0336|Chennai|Kolkata|Volvo Multi-Axle|13:15|1029|3910|2150
+IND0337|Indore|Chennai|Ordinary|23:30|1379|1650|910
+IND0338|Mangaluru|Ahmedabad|Volvo Multi-Axle|01:00|1494|5680|3120
+IND0339|Cuttack|Bengaluru|Super Fast|16:15|183|350|190
+IND0340|Amritsar|Kolkata|Volvo Multi-Axle|14:00|378|1440|790
+IND0341|Jaipur|Nagpur|Volvo Multi-Axle|11:30|904|3440|1890
+IND0342|Thiruvananthapuram|Gurugram|AC Luxury|04:45|879|2640|1450
+IND0343|Bhopal|Chennai|Ordinary|18:15|1204|1440|790
+IND0344|Bhopal|Bengaluru|Super Fast|20:30|631|1200|660
+IND0345|Shimla|Noida|Volvo Multi-Axle|05:45|1180|4480|2460
+IND0346|Gwalior|Kochi|Ordinary|08:30|1033|1240|680
+IND0347|Mumbai|Bhubaneswar|Super Fast|22:45|529|1010|560
+IND0348|Shimla|Jammu|Ordinary|14:15|1031|1240|680
+IND0349|Lucknow|Jamshedpur|Super Fast|21:30|252|480|260
+IND0350|Kochi|Tirupati|Super Fast|09:15|1426|2710|1490
+IND0351|Kanpur|Bhopal|AC Luxury|07:00|531|1590|870
+IND0352|Jammu|Nagpur|AC Sleeper|00:30|1254|3140|1730
+IND0353|Thiruvananthapuram|Bhopal|AC Sleeper|17:15|1373|3430|1890
+IND0354|Lucknow|Jaipur|Super Fast|12:45|1196|2270|1250
+IND0355|Mysuru|Thiruvananthapuram|Ordinary|04:30|1435|1720|950
+IND0356|Jaipur|Chennai|AC Sleeper|21:30|382|960|530
+IND0357|Kochi|Cuttack|AC Luxury|05:15|1006|3020|1660
+IND0358|Vijayawada|Chandigarh|Ordinary|16:15|742|890|490
+IND0359|Agra|Rajkot|Volvo Multi-Axle|07:30|1182|4490|2470
+IND0360|Surat|Lucknow|Super Fast|06:30|376|710|390
+IND0361|Cuttack|Vadodara|AC Luxury|17:00|1149|3450|1900
+IND0362|Patna|Agra|AC Luxury|18:15|470|1410|780
+IND0363|Ranchi|Bhubaneswar|Volvo Multi-Axle|19:30|1274|4840|2660
+IND0364|Gurugram|Noida|Ordinary|01:30|1453|1740|960
+IND0365|Mumbai|Thiruvananthapuram|AC Sleeper|19:00|1139|2850|1570
+IND0366|Cuttack|Tirupati|Super Fast|20:30|1109|2110|1160
+IND0367|Nagpur|Jamshedpur|AC Sleeper|09:45|269|670|370
+IND0368|Guwahati|Chandigarh|Express|14:45|1111|1780|980
+IND0369|Coimbatore|Mumbai|Super Fast|19:15|760|1440|790
+IND0370|Shillong|Rajkot|Volvo Multi-Axle|11:45|387|1470|810
+IND0371|Bhopal|Vijayawada|AC Luxury|03:30|615|1840|1010
+IND0372|Coimbatore|Shimla|Super Fast|14:15|408|780|430
+IND0373|Dehradun|Chandigarh|Super Fast|12:45|628|1190|650
+IND0374|Agra|Rajkot|AC Luxury|23:30|508|1520|840
+IND0375|Agra|Hyderabad|AC Luxury|14:45|751|2250|1240
+IND0376|Hyderabad|Noida|Ordinary|12:45|613|740|410
+IND0377|Mumbai|Kozhikode|Super Fast|01:00|696|1320|730
+IND0378|Hyderabad|Kolkata|Volvo Multi-Axle|21:45|705|2680|1470
+IND0379|Tirupati|Delhi|Ordinary|13:15|661|790|430
+IND0380|Imphal|Bhopal|AC Sleeper|11:00|940|2350|1290
+IND0381|Chandigarh|Thiruvananthapuram|AC Luxury|06:30|1253|3760|2070
+IND0382|Surat|Jaipur|AC Sleeper|16:45|1246|3120|1720
+IND0383|Ahmedabad|Bhubaneswar|Volvo Multi-Axle|19:00|383|1460|800
+IND0384|Dehradun|Bengaluru|Super Fast|10:30|415|790|430
+IND0385|Varanasi|Kolkata|AC Luxury|12:00|212|640|350
+IND0386|Gurugram|Jammu|Volvo Multi-Axle|10:45|1183|4500|2480
+IND0387|Coimbatore|Amritsar|AC Luxury|16:15|791|2370|1300
+IND0388|Bhubaneswar|Rajkot|Express|12:30|1335|2140|1180
+IND0389|Goa|Vijayawada|AC Luxury|17:45|1272|3820|2100
+IND0390|Vadodara|Madurai|Ordinary|11:30|1499|1800|990
+IND0391|Shimla|Mysuru|AC Luxury|09:00|1342|4030|2220
+IND0392|Madurai|Nashik|Volvo Multi-Axle|18:15|225|860|470
+IND0393|Kozhikode|Madurai|Express|16:45|422|680|370
+IND0394|Jamshedpur|Nagpur|Ordinary|18:00|510|610|340
+IND0395|Noida|Chennai|Super Fast|13:15|965|1830|1010
+IND0396|Guwahati|Mumbai|AC Sleeper|16:45|247|620|340
+IND0397|Shillong|Jammu|AC Luxury|06:30|1476|4430|2440
+IND0398|Madurai|Visakhapatnam|AC Sleeper|10:15|1061|2650|1460
+IND0399|Tirupati|Goa|AC Luxury|11:30|1369|4110|2260
+IND0400|Madurai|Varanasi|Express|08:30|580|930|510
+IND0401|Vadodara|Surat|Volvo Multi-Axle|06:45|769|2920|1610
+IND0402|Madurai|Indore|AC Luxury|23:30|709|2130|1170
+IND0403|Shimla|Thiruvananthapuram|Volvo Multi-Axle|17:45|928|3530|1940
+IND0404|Indore|Amritsar|Super Fast|01:30|281|530|290
+IND0405|Indore|Chennai|Volvo Multi-Axle|08:45|558|2120|1170
+IND0406|Varanasi|Tirupati|Super Fast|17:30|401|760|420
+IND0407|Dehradun|Bhubaneswar|Volvo Multi-Axle|18:15|616|2340|1290
+IND0408|Chandigarh|Ranchi|AC Luxury|07:15|227|680|370
+IND0409|Dehradun|Mysuru|Super Fast|22:45|325|620|340
+IND0410|Jamshedpur|Jammu|Ordinary|17:15|953|1140|630
+IND0411|Patna|Madurai|AC Sleeper|20:15|708|1770|970
+IND0412|Rajkot|Surat|Volvo Multi-Axle|01:00|1455|5530|3040
+IND0413|Thiruvananthapuram|Pune|AC Luxury|23:00|478|1430|790
+IND0414|Mysuru|Kanpur|Ordinary|12:45|501|600|330
+IND0415|Agartala|Surat|Ordinary|00:30|1283|1540|850
+IND0416|Kolkata|Dehradun|Super Fast|09:45|1433|2720|1500
+IND0417|Tirupati|Visakhapatnam|AC Sleeper|04:45|678|1700|940
+IND0418|Varanasi|Shimla|Super Fast|05:45|1447|2750|1510
+IND0419|Nashik|Shillong|Express|00:30|724|1160|640
+IND0420|Thiruvananthapuram|Jamshedpur|Express|05:45|995|1590|870
+IND0421|Vijayawada|Rajkot|Ordinary|12:00|498|600|330
+IND0422|Jammu|Madurai|Super Fast|07:00|654|1240|680
+IND0423|Gwalior|Nagpur|AC Sleeper|08:30|738|1840|1010
+IND0424|Kozhikode|Imphal|AC Luxury|00:30|1458|4370|2400
+IND0425|Bhopal|Guwahati|Express|01:00|1073|1720|950
+IND0426|Vadodara|Agra|AC Sleeper|21:30|360|900|500
+IND0427|Cuttack|Surat|Super Fast|19:15|568|1080|590
+IND0428|Jammu|Madurai|Express|14:30|971|1550|850
+IND0429|Guwahati|Kochi|AC Sleeper|17:15|626|1560|860
+IND0430|Jamshedpur|Kolkata|Ordinary|16:45|1201|1440|790
+IND0431|Shillong|Bhopal|Ordinary|18:00|246|300|160
+IND0432|Kochi|Vijayawada|Express|18:15|456|730|400
+IND0433|Rajkot|Visakhapatnam|AC Sleeper|03:15|1314|3280|1800
+IND0434|Hyderabad|Lucknow|AC Luxury|14:00|1048|3140|1730
+IND0435|Jammu|Vijayawada|AC Sleeper|14:00|1264|3160|1740
+IND0436|Coimbatore|Jamshedpur|Super Fast|23:00|930|1770|970
+IND0437|Nashik|Delhi|Volvo Multi-Axle|06:00|212|810|450
+IND0438|Mangaluru|Indore|Volvo Multi-Axle|02:00|261|990|540
+IND0439|Madurai|Gurugram|Super Fast|13:15|397|750|410
+IND0440|Patna|Imphal|Volvo Multi-Axle|13:30|903|3430|1890
+IND0441|Chennai|Gwalior|AC Sleeper|02:15|1458|3640|2000
+IND0442|Indore|Shimla|Express|17:45|1203|1920|1060
+IND0443|Jammu|Imphal|Express|00:00|731|1170|640
+IND0444|Coimbatore|Jamshedpur|Volvo Multi-Axle|17:45|1209|4590|2520
+IND0445|Gwalior|Pune|Express|14:30|437|700|390
+IND0446|Ahmedabad|Varanasi|Volvo Multi-Axle|03:00|1472|5590|3070
+IND0447|Mysuru|Bhubaneswar|Ordinary|07:15|257|310|170
+IND0448|Dehradun|Kolkata|Ordinary|14:00|621|750|410
+IND0449|Agartala|Gurugram|AC Sleeper|14:15|1225|3060|1680
+IND0450|Mumbai|Chandigarh|Express|16:30|599|960|530
+IND0451|Imphal|Thiruvananthapuram|Super Fast|18:30|605|1150|630
+IND0452|Vadodara|Amritsar|Volvo Multi-Axle|16:15|966|3670|2020
+IND0453|Vadodara|Ahmedabad|Ordinary|17:15|1402|1680|920
+IND0454|Jamshedpur|Mangaluru|AC Luxury|15:00|825|2480|1360
+IND0455|Patna|Ranchi|AC Sleeper|16:30|972|2430|1340
+IND0456|Mysuru|Amritsar|Super Fast|12:15|1221|2320|1280
+IND0457|Madurai|Nagpur|Express|09:15|1068|1710|940
+IND0458|Chandigarh|Kochi|AC Sleeper|13:15|915|2290|1260
+IND0459|Nagpur|Nashik|Express|10:00|1041|1670|920
+IND0460|Bhopal|Lucknow|AC Luxury|23:15|225|680|370
+IND0461|Ahmedabad|Gwalior|Volvo Multi-Axle|19:00|269|1020|560
+IND0462|Varanasi|Kozhikode|Volvo Multi-Axle|21:15|1101|4180|2300
+IND0463|Mumbai|Goa|Super Fast|00:15|509|970|530
+IND0464|Agartala|Shimla|Volvo Multi-Axle|15:15|1357|5160|2840
+IND0465|Shillong|Mumbai|AC Sleeper|07:30|699|1750|960
+IND0466|Gwalior|Coimbatore|AC Luxury|20:30|751|2250|1240
+IND0467|Nashik|Bhopal|AC Luxury|15:45|321|960|530
+IND0468|Imphal|Madurai|Super Fast|06:30|760|1440|790
+IND0469|Mysuru|Gurugram|AC Luxury|07:15|153|460|250
+IND0470|Nashik|Kochi|AC Luxury|18:45|724|2170|1190
+IND0471|Amritsar|Varanasi|Super Fast|07:45|1286|2440|1340
+IND0472|Nagpur|Hyderabad|AC Luxury|20:30|647|1940|1070
+IND0473|Hyderabad|Imphal|Volvo Multi-Axle|23:45|1063|4040|2220
+IND0474|Agra|Imphal|Super Fast|05:15|1239|2350|1290
+IND0475|Hyderabad|Kanpur|AC Luxury|20:00|1193|3580|1970
+IND0476|Gurugram|Jaipur|Volvo Multi-Axle|01:00|964|3660|2010
+IND0477|Jammu|Cuttack|Express|02:15|138|220|120
+IND0478|Mumbai|Vijayawada|AC Sleeper|11:00|1385|3460|1900
+IND0479|Cuttack|Ranchi|AC Luxury|15:45|152|460|250
+IND0480|Delhi|Tirupati|AC Luxury|13:00|154|460|250
+IND0481|Visakhapatnam|Imphal|Super Fast|17:30|155|290|160
+IND0482|Vijayawada|Guwahati|Volvo Multi-Axle|13:15|339|1290|710
+IND0483|Dehradun|Visakhapatnam|Express|07:15|1389|2220|1220
+IND0484|Visakhapatnam|Nashik|Super Fast|08:45|281|530|290
+IND0485|Bhopal|Bengaluru|AC Sleeper|18:15|582|1460|800
+IND0486|Vadodara|Jamshedpur|Ordinary|20:00|311|370|200
+IND0487|Bengaluru|Gwalior|AC Sleeper|17:45|234|580|320
+IND0488|Cuttack|Delhi|Volvo Multi-Axle|05:00|1143|4340|2390
+IND0489|Mangaluru|Patna|Super Fast|18:00|1201|2280|1250
+IND0490|Gurugram|Pune|Express|22:45|675|1080|590
+IND0491|Gurugram|Jaipur|Volvo Multi-Axle|08:00|487|1850|1020
+IND0492|Rajkot|Noida|Express|18:15|935|1500|830
+IND0493|Jaipur|Vadodara|Express|18:15|1280|2050|1130
+IND0494|Gwalior|Jamshedpur|AC Luxury|10:45|406|1220|670
+IND0495|Guwahati|Imphal|Ordinary|16:30|229|270|150
+IND0496|Dehradun|Mangaluru|Express|02:30|1359|2170|1190
+IND0497|Bhubaneswar|Kolkata|AC Sleeper|10:00|1418|3540|1950
+IND0498|Ahmedabad|Chennai|AC Sleeper|07:30|1252|3130|1720
+IND0499|Gwalior|Mangaluru|Express|21:45|295|470|260
+IND0500|Bhubaneswar|Surat|Express|22:00|288|460|250
+IND0501|Ahmedabad|Amritsar|AC Sleeper|22:15|917|2290|1260
+IND0502|Rajkot|Bhopal|Ordinary|02:00|751|900|500
+IND0503|Chennai|Bhopal|Super Fast|03:15|298|570|310
+IND0504|Kanpur|Mangaluru|AC Sleeper|17:45|331|830|460
+IND0505|Noida|Lucknow|Super Fast|17:00|1342|2550|1400
+IND0506|Kolkata|Rajkot|AC Sleeper|00:30|967|2420|1330
+IND0507|Gwalior|Lucknow|Volvo Multi-Axle|17:15|1291|4910|2700
+IND0508|Visakhapatnam|Agra|Volvo Multi-Axle|12:15|404|1540|850
+IND0509|Ahmedabad|Vadodara|Super Fast|15:15|249|470|260
+IND0510|Agra|Mangaluru|Super Fast|13:30|1111|2110|1160
+IND0511|Jaipur|Bhopal|Super Fast|07:45|1336|2540|1400
+IND0512|Bhubaneswar|Varanasi|AC Sleeper|03:15|743|1860|1020
+IND0513|Delhi|Bengaluru|Super Fast|19:45|794|1510|830
+IND0514|Chennai|Goa|AC Sleeper|20:15|735|1840|1010
+IND0515|Rajkot|Kolkata|Volvo Multi-Axle|06:45|763|2900|1600
+IND0516|Kanpur|Bengaluru|Super Fast|09:45|1299|2470|1360
+IND0517|Nagpur|Rajkot|AC Sleeper|08:45|867|2170|1190
+IND0518|Shimla|Thiruvananthapuram|Express|18:15|1246|1990|1090
+IND0519|Noida|Imphal|AC Sleeper|22:15|1017|2540|1400
+IND0520|Surat|Guwahati|Ordinary|13:45|405|490|270
+IND0521|Cuttack|Vadodara|Express|08:15|986|1580|870
+IND0522|Gwalior|Jaipur|AC Sleeper|19:45|1312|3280|1800
+IND0523|Bengaluru|Tirupati|AC Luxury|22:45|1233|3700|2040
+IND0524|Gurugram|Bhopal|Volvo Multi-Axle|17:00|343|1300|720
+IND0525|Nagpur|Ranchi|Volvo Multi-Axle|11:15|1445|5490|3020
+IND0526|Bhubaneswar|Gurugram|AC Luxury|20:45|799|2400|1320
+IND0527|Mangaluru|Dehradun|Ordinary|03:30|574|690|380
+IND0528|Vijayawada|Agartala|AC Luxury|17:15|1032|3100|1710
+IND0529|Bhopal|Bengaluru|AC Sleeper|21:15|826|2060|1130
+IND0530|Noida|Madurai|Ordinary|09:45|295|350|190
+IND0531|Shimla|Imphal|Express|11:30|822|1320|730
+IND0532|Coimbatore|Mumbai|AC Luxury|15:30|1095|3280|1800
+IND0533|Dehradun|Chennai|Volvo Multi-Axle|22:45|773|2940|1620
+IND0534|Jaipur|Vadodara|Ordinary|22:00|166|200|110
+IND0535|Goa|Patna|Ordinary|21:15|619|740|410
+IND0536|Visakhapatnam|Kanpur|AC Luxury|05:30|1266|3800|2090
+IND0537|Mangaluru|Coimbatore|Express|12:15|501|800|440
+IND0538|Cuttack|Ranchi|AC Sleeper|12:00|1377|3440|1890
+IND0539|Varanasi|Chennai|AC Luxury|13:45|129|390|210
+IND0540|Shillong|Mumbai|Express|08:00|1302|2080|1140
+IND0541|Dehradun|Tirupati|Express|11:30|523|840|460
+IND0542|Coimbatore|Shimla|Super Fast|21:45|1200|2280|1250
+IND0543|Cuttack|Rajkot|AC Luxury|12:45|1322|3970|2180
+IND0544|Shimla|Indore|Super Fast|14:15|1499|2850|1570
+IND0545|Shillong|Vadodara|AC Luxury|18:00|1496|4490|2470
+IND0546|Jammu|Rajkot|Ordinary|07:30|359|430|240
+IND0547|Kanpur|Bhopal|Volvo Multi-Axle|04:45|976|3710|2040
+IND0548|Kolkata|Jammu|AC Luxury|12:45|500|1500|830
+IND0549|Hyderabad|Cuttack|AC Luxury|22:15|1256|3770|2070
+IND0550|Agra|Hyderabad|Super Fast|04:15|764|1450|800
+IND0551|Chennai|Bhubaneswar|Ordinary|11:00|1112|1330|730
+IND0552|Jammu|Varanasi|AC Sleeper|17:45|957|2390|1310
+IND0553|Jamshedpur|Hyderabad|AC Sleeper|22:45|1120|2800|1540
+IND0554|Agra|Lucknow|AC Luxury|00:15|718|2150|1180
+IND0555|Gurugram|Ahmedabad|Express|17:30|464|740|410
+IND0556|Coimbatore|Thiruvananthapuram|Volvo Multi-Axle|15:00|1292|4910|2700
+IND0557|Shimla|Ahmedabad|AC Luxury|11:00|1023|3070|1690
+IND0558|Tirupati|Mumbai|AC Sleeper|03:15|729|1820|1000
+IND0559|Gurugram|Chennai|Super Fast|11:00|1019|1940|1070
+IND0560|Shimla|Nagpur|Express|23:30|1369|2190|1200
+IND0561|Cuttack|Mangaluru|Express|19:15|543|870|480
+IND0562|Mumbai|Chandigarh|AC Luxury|11:30|1342|4030|2220
+IND0563|Tirupati|Agra|Super Fast|22:30|712|1350|740
+IND0564|Thiruvananthapuram|Ahmedabad|AC Luxury|21:00|397|1190|650
+IND0565|Mysuru|Chandigarh|Super Fast|20:15|391|740|410
+IND0566|Nagpur|Amritsar|Volvo Multi-Axle|10:15|924|3510|1930
+IND0567|Hyderabad|Amritsar|AC Luxury|20:30|1405|4220|2320
+IND0568|Mysuru|Gwalior|AC Sleeper|02:00|945|2360|1300
+IND0569|Vijayawada|Agartala|Super Fast|22:30|1051|2000|1100
+IND0570|Hyderabad|Rajkot|AC Luxury|00:00|1058|3170|1740
+IND0571|Cuttack|Ranchi|Volvo Multi-Axle|11:00|1214|4610|2540
+IND0572|Bengaluru|Mumbai|AC Sleeper|06:45|669|1670|920
+IND0573|Rajkot|Surat|Super Fast|17:15|1279|2430|1340
+IND0574|Hyderabad|Goa|Volvo Multi-Axle|01:00|323|1230|680
+IND0575|Cuttack|Coimbatore|Ordinary|03:15|1023|1230|680
+IND0576|Coimbatore|Delhi|AC Sleeper|06:15|1451|3630|2000
+IND0577|Vadodara|Agra|Super Fast|02:30|632|1200|660
+IND0578|Lucknow|Bhopal|Volvo Multi-Axle|20:15|226|860|470
+IND0579|Bengaluru|Cuttack|Super Fast|23:15|999|1900|1040
+IND0580|Patna|Lucknow|Volvo Multi-Axle|03:00|557|2120|1170
+IND0581|Madurai|Jaipur|Express|18:15|1183|1890|1040
+IND0582|Jamshedpur|Chennai|Ordinary|00:30|366|440|240
+IND0583|Mangaluru|Guwahati|Express|15:00|588|940|520
+IND0584|Gwalior|Lucknow|Volvo Multi-Axle|03:00|761|2890|1590
+IND0585|Bhopal|Vadodara|Express|12:15|1433|2290|1260
+IND0586|Jamshedpur|Amritsar|Ordinary|16:00|1369|1640|900
+IND0587|Patna|Agra|AC Sleeper|11:15|1406|3520|1940
+IND0588|Agartala|Amritsar|AC Sleeper|19:45|564|1410|780
+IND0589|Lucknow|Dehradun|Express|03:45|839|1340|740
+IND0590|Mangaluru|Rajkot|Express|07:30|1440|2300|1260
+IND0591|Lucknow|Nagpur|AC Luxury|19:30|174|520|290
+IND0592|Ranchi|Vadodara|Express|16:15|922|1480|810
+IND0593|Surat|Patna|Ordinary|07:45|910|1090|600
+IND0594|Shimla|Nagpur|AC Sleeper|20:00|1201|3000|1650
+IND0595|Delhi|Bhopal|Super Fast|04:45|1284|2440|1340
+IND0596|Mysuru|Bhopal|AC Luxury|21:15|1084|3250|1790
+IND0597|Jaipur|Noida|AC Luxury|02:00|656|1970|1080
+IND0598|Mumbai|Gurugram|Ordinary|12:30|1407|1690|930
+IND0599|Shillong|Vijayawada|AC Sleeper|13:45|288|720|400
+IND0600|Cuttack|Tirupati|AC Luxury|19:15|688|2060|1130
+IND0601|Lucknow|Vadodara|Ordinary|16:15|438|530|290
+IND0602|Tirupati|Rajkot|AC Sleeper|18:00|755|1890|1040
+IND0603|Guwahati|Mangaluru|Volvo Multi-Axle|07:00|620|2360|1300
+IND0604|Lucknow|Mangaluru|Ordinary|14:00|753|900|500
+IND0605|Ranchi|Agartala|Volvo Multi-Axle|23:15|364|1380|760
+IND0606|Delhi|Shillong|Express|22:00|455|730|400
+IND0607|Hyderabad|Indore|AC Luxury|16:30|461|1380|760
+IND0608|Bhopal|Jammu|Volvo Multi-Axle|08:00|180|680|370
+IND0609|Goa|Mangaluru|Super Fast|16:00|658|1250|690
+IND0610|Shillong|Thiruvananthapuram|Volvo Multi-Axle|02:45|1052|4000|2200
+IND0611|Vijayawada|Bhopal|Ordinary|15:15|873|1050|580
+IND0612|Agra|Nashik|Ordinary|18:00|587|700|390
+IND0613|Agartala|Vijayawada|Ordinary|01:00|620|740|410
+IND0614|Gurugram|Madurai|Super Fast|12:15|486|920|510
+IND0615|Gurugram|Kochi|Volvo Multi-Axle|23:45|579|2200|1210
+IND0616|Rajkot|Nagpur|AC Sleeper|23:30|675|1690|930
+IND0617|Jaipur|Thiruvananthapuram|Super Fast|03:00|487|930|510
+IND0618|Pune|Visakhapatnam|Ordinary|12:00|1072|1290|710
+IND0619|Surat|Vadodara|Super Fast|02:45|136|260|140
+IND0620|Bhopal|Varanasi|Super Fast|18:30|1395|2650|1460
+IND0621|Nagpur|Coimbatore|Super Fast|18:45|520|990|540
+IND0622|Imphal|Tirupati|Express|04:00|959|1530|840
+IND0623|Noida|Pune|AC Luxury|11:00|806|2420|1330
+IND0624|Delhi|Ranchi|AC Sleeper|23:30|332|830|460
+IND0625|Mumbai|Visakhapatnam|Express|13:45|242|390|210
+IND0626|Amritsar|Shillong|Super Fast|02:00|594|1130|620
+IND0627|Visakhapatnam|Mysuru|Volvo Multi-Axle|11:45|293|1110|610
+IND0628|Kozhikode|Dehradun|AC Luxury|04:45|273|820|450
+IND0629|Kozhikode|Thiruvananthapuram|Ordinary|13:15|604|720|400
+IND0630|Surat|Nashik|Super Fast|12:30|771|1460|800
+IND0631|Chennai|Ahmedabad|Express|02:15|398|640|350
+IND0632|Kozhikode|Dehradun|Express|03:15|1040|1660|910
+IND0633|Coimbatore|Rajkot|AC Sleeper|03:30|545|1360|750
+IND0634|Chennai|Vadodara|AC Sleeper|08:00|305|760|420
+IND0635|Agra|Jamshedpur|Super Fast|22:00|560|1060|580
+IND0636|Rajkot|Amritsar|Ordinary|22:15|848|1020|560
+IND0637|Bengaluru|Vijayawada|Ordinary|21:30|652|780|430
+IND0638|Kanpur|Noida|AC Sleeper|14:15|313|780|430
+IND0639|Coimbatore|Dehradun|Express|03:00|246|390|210
+IND0640|Pune|Jammu|Express|12:30|1410|2260|1240
+IND0641|Patna|Lucknow|AC Luxury|18:30|273|820|450
+IND0642|Noida|Jaipur|Express|20:45|383|610|340
+IND0643|Lucknow|Goa|Ordinary|01:45|223|270|150
+IND0644|Agra|Thiruvananthapuram|AC Sleeper|23:45|1136|2840|1560
+IND0645|Noida|Gwalior|Volvo Multi-Axle|13:15|844|3210|1770
+IND0646|Mumbai|Kanpur|Super Fast|08:45|424|810|450
+IND0647|Gurugram|Bhubaneswar|AC Luxury|19:15|1445|4340|2390
+IND0648|Surat|Hyderabad|AC Sleeper|17:45|244|610|340
+IND0649|Lucknow|Ahmedabad|AC Sleeper|04:45|528|1320|730
+IND0650|Patna|Visakhapatnam|Express|20:00|903|1440|790
+IND0651|Shillong|Indore|AC Sleeper|17:45|824|2060|1130
+IND0652|Thiruvananthapuram|Vijayawada|Super Fast|12:30|488|930|510
+IND0653|Noida|Rajkot|AC Luxury|07:00|695|2080|1140
+IND0654|Chandigarh|Madurai|AC Luxury|11:15|446|1340|740
+IND0655|Dehradun|Nagpur|Volvo Multi-Axle|07:30|1212|4610|2540
+IND0656|Agartala|Chandigarh|Express|18:45|846|1350|740
+IND0657|Kanpur|Nagpur|AC Luxury|10:30|1331|3990|2190
+IND0658|Noida|Shillong|Volvo Multi-Axle|11:15|1273|4840|2660
+IND0659|Varanasi|Hyderabad|AC Luxury|09:15|1124|3370|1850
+IND0660|Gurugram|Lucknow|Ordinary|07:15|160|190|100
+IND0661|Visakhapatnam|Madurai|Ordinary|10:15|387|460|250
+IND0662|Goa|Shillong|Express|10:00|164|260|140
+IND0663|Amritsar|Kozhikode|Volvo Multi-Axle|04:00|1197|4550|2500
+IND0664|Bhopal|Jaipur|Super Fast|22:45|1320|2510|1380
+IND0665|Dehradun|Goa|Super Fast|10:15|442|840|460
+IND0666|Imphal|Mangaluru|Volvo Multi-Axle|15:30|476|1810|1000
+IND0667|Shillong|Kochi|Volvo Multi-Axle|19:30|577|2190|1200
+IND0668|Ranchi|Kozhikode|Express|12:30|723|1160|640
+IND0669|Jammu|Kanpur|Volvo Multi-Axle|00:45|1282|4870|2680
+IND0670|Gurugram|Kanpur|AC Luxury|10:15|1429|4290|2360
+IND0671|Thiruvananthapuram|Dehradun|AC Sleeper|04:30|279|700|390
+IND0672|Nagpur|Indore|Super Fast|05:00|1492|2830|1560
+IND0673|Cuttack|Imphal|Super Fast|14:00|663|1260|690
+IND0674|Mumbai|Nagpur|Volvo Multi-Axle|02:30|645|2450|1350
+IND0675|Dehradun|Imphal|Ordinary|01:45|1017|1220|670
+IND0676|Imphal|Mysuru|Express|13:45|895|1430|790
+IND0677|Indore|Tirupati|AC Sleeper|03:45|1303|3260|1790
+IND0678|Patna|Jamshedpur|Express|05:45|270|430|240
+IND0679|Gurugram|Surat|Ordinary|10:30|334|400|220
+IND0680|Jaipur|Goa|Express|12:15|273|440|240
+IND0681|Kochi|Lucknow|Super Fast|19:45|183|350|190
+IND0682|Mangaluru|Patna|Express|19:45|441|710|390
+IND0683|Chandigarh|Dehradun|Super Fast|06:15|958|1820|1000
+IND0684|Guwahati|Kochi|Volvo Multi-Axle|23:30|1472|5590|3070
+IND0685|Surat|Vadodara|Express|03:00|924|1480|810
+IND0686|Thiruvananthapuram|Kochi|AC Sleeper|04:00|858|2140|1180
+IND0687|Delhi|Mangaluru|Ordinary|09:45|528|630|350
+IND0688|Dehradun|Noida|Express|05:30|287|460|250
+IND0689|Madurai|Shimla|Super Fast|12:45|1121|2130|1170
+IND0690|Ranchi|Nashik|Ordinary|20:45|498|600|330
+IND0691|Bhopal|Gwalior|Super Fast|05:45|211|400|220
+IND0692|Nashik|Chennai|AC Sleeper|08:15|670|1680|920
+IND0693|Thiruvananthapuram|Chandigarh|Express|22:00|295|470|260
+IND0694|Ranchi|Indore|AC Luxury|13:15|1253|3760|2070
+IND0695|Chandigarh|Gwalior|AC Luxury|13:45|1292|3880|2130
+IND0696|Nagpur|Madurai|Super Fast|02:45|191|360|200
+IND0697|Vijayawada|Thiruvananthapuram|AC Luxury|18:15|366|1100|600
+IND0698|Chennai|Kanpur|Express|06:15|378|600|330
+IND0699|Gurugram|Mangaluru|Ordinary|21:45|533|640|350
+IND0700|Cuttack|Amritsar|AC Luxury|08:30|257|770|420
+IND0701|Lucknow|Gwalior|AC Luxury|12:30|685|2060|1130
+IND0702|Visakhapatnam|Coimbatore|Ordinary|22:45|350|420|230
+IND0703|Mysuru|Amritsar|Express|18:00|336|540|300
+IND0704|Thiruvananthapuram|Dehradun|Super Fast|17:30|961|1830|1010
+IND0705|Nashik|Gwalior|Volvo Multi-Axle|15:45|196|740|410
+IND0706|Kanpur|Ahmedabad|AC Sleeper|04:45|199|500|280
+IND0707|Bengaluru|Goa|Volvo Multi-Axle|07:00|1093|4150|2280
+IND0708|Ahmedabad|Bhopal|Ordinary|10:30|756|910|500
+IND0709|Ahmedabad|Hyderabad|Volvo Multi-Axle|21:00|586|2230|1230
+IND0710|Jammu|Vadodara|Volvo Multi-Axle|14:30|671|2550|1400
+IND0711|Imphal|Mysuru|AC Luxury|20:00|504|1510|830
+IND0712|Chennai|Mumbai|AC Sleeper|23:45|1177|2940|1620
+IND0713|Bhopal|Chandigarh|AC Luxury|05:00|757|2270|1250
+IND0714|Shillong|Vijayawada|AC Sleeper|04:00|475|1190|650
+IND0715|Varanasi|Chandigarh|Express|01:45|223|360|200
+IND0716|Bhopal|Shillong|Express|08:30|1070|1710|940
+IND0717|Vijayawada|Bengaluru|Volvo Multi-Axle|03:00|615|2340|1290
+IND0718|Bhopal|Hyderabad|AC Luxury|14:15|1091|3270|1800
+IND0719|Kozhikode|Kochi|Super Fast|11:15|649|1230|680
+IND0720|Agartala|Guwahati|Ordinary|09:00|911|1090|600
+IND0721|Chandigarh|Agra|AC Luxury|06:15|1445|4340|2390
+IND0722|Pune|Jamshedpur|Express|08:45|1171|1870|1030
+IND0723|Noida|Jamshedpur|Ordinary|15:15|1445|1730|950
+IND0724|Kanpur|Kolkata|Ordinary|07:30|1365|1640|900
+IND0725|Vadodara|Shillong|Volvo Multi-Axle|20:30|987|3750|2060
+IND0726|Gwalior|Indore|AC Sleeper|08:15|1075|2690|1480
+IND0727|Vadodara|Jamshedpur|AC Luxury|19:45|1317|3950|2170
+IND0728|Dehradun|Delhi|AC Luxury|21:30|1269|3810|2100
+IND0729|Patna|Kolkata|AC Luxury|09:30|341|1020|560
+IND0730|Madurai|Jaipur|Super Fast|08:30|687|1310|720
+IND0731|Nashik|Patna|Volvo Multi-Axle|20:30|505|1920|1060
+IND0732|Amritsar|Visakhapatnam|Express|01:45|1472|2360|1300
+IND0733|Rajkot|Jamshedpur|Express|23:00|1462|2340|1290
+IND0734|Hyderabad|Surat|Super Fast|13:45|915|1740|960
+IND0735|Agartala|Gurugram|AC Luxury|22:15|822|2470|1360
+IND0736|Imphal|Shillong|Express|21:45|1495|2390|1310
+IND0737|Indore|Vijayawada|Super Fast|05:15|721|1370|750
+IND0738|Dehradun|Madurai|Express|23:30|1264|2020|1110
+IND0739|Kanpur|Jamshedpur|Super Fast|20:00|575|1090|600
+IND0740|Indore|Pune|Volvo Multi-Axle|09:45|798|3030|1670
+IND0741|Bhopal|Nashik|AC Luxury|09:45|361|1080|590
+IND0742|Madurai|Chandigarh|Volvo Multi-Axle|18:00|1087|4130|2270
+IND0743|Varanasi|Vijayawada|Ordinary|21:45|1205|1450|800
+IND0744|Vadodara|Mysuru|Ordinary|04:15|530|640|350
+IND0745|Goa|Mysuru|AC Luxury|14:15|767|2300|1260
+IND0746|Shillong|Kanpur|Ordinary|15:30|1412|1690|930
+IND0747|Kanpur|Rajkot|Volvo Multi-Axle|01:00|1045|3970|2180
+IND0748|Ahmedabad|Mumbai|Express|18:15|1122|1800|990
+IND0749|Lucknow|Jammu|AC Luxury|13:45|946|2840|1560
+IND0750|Mangaluru|Madurai|AC Sleeper|00:00|1213|3030|1670
+IND0751|Varanasi|Imphal|Super Fast|00:30|1207|2290|1260
+IND0752|Varanasi|Noida|Volvo Multi-Axle|00:15|583|2220|1220
+IND0753|Guwahati|Indore|Super Fast|04:00|905|1720|950
+IND0754|Vijayawada|Kozhikode|Super Fast|05:00|213|400|220
+IND0755|Vadodara|Surat|AC Sleeper|23:30|1008|2520|1390
+IND0756|Jamshedpur|Jammu|Super Fast|15:30|505|960|530
+IND0757|Agra|Bengaluru|Ordinary|07:15|388|470|260
+IND0758|Mumbai|Imphal|Ordinary|18:15|372|450|250
+IND0759|Bhopal|Shillong|Volvo Multi-Axle|01:45|1431|5440|2990
+IND0760|Nashik|Tirupati|AC Luxury|01:00|1475|4420|2430
+IND0761|Dehradun|Patna|Ordinary|01:00|973|1170|640
+IND0762|Chennai|Gwalior|Ordinary|17:30|1091|1310|720
+IND0763|Guwahati|Amritsar|Express|22:00|736|1180|650
+IND0764|Mysuru|Ranchi|Ordinary|21:30|1395|1670|920
+IND0765|Kolkata|Guwahati|Express|13:00|1167|1870|1030
+IND0766|Imphal|Bhubaneswar|Ordinary|09:00|337|400|220
+IND0767|Hyderabad|Varanasi|AC Luxury|06:30|1191|3570|1960
+IND0768|Varanasi|Indore|Volvo Multi-Axle|13:30|448|1700|940
+IND0769|Gurugram|Kochi|AC Sleeper|06:45|797|1990|1090
+IND0770|Nagpur|Delhi|Ordinary|21:00|346|420|230
+IND0771|Thiruvananthapuram|Ranchi|AC Sleeper|04:00|1167|2920|1610
+IND0772|Jaipur|Imphal|Volvo Multi-Axle|03:30|1439|5470|3010
+IND0773|Pune|Coimbatore|Super Fast|08:45|222|420|230
+IND0774|Dehradun|Kanpur|Ordinary|09:30|760|910|500
+IND0775|Mangaluru|Agartala|Ordinary|03:00|139|170|90
+IND0776|Jammu|Ranchi|Volvo Multi-Axle|05:30|852|3240|1780
+IND0777|Chennai|Bhubaneswar|Super Fast|23:00|883|1680|920
+IND0778|Goa|Kanpur|Ordinary|12:45|1054|1260|690
+IND0779|Ahmedabad|Gwalior|Volvo Multi-Axle|15:45|1448|5500|3030
+IND0780|Agra|Shimla|Express|22:00|446|710|390
+IND0781|Dehradun|Mysuru|AC Luxury|15:45|491|1470|810
+IND0782|Bhubaneswar|Gwalior|Super Fast|19:00|387|740|410
+IND0783|Madurai|Hyderabad|Ordinary|13:45|214|260|140
+IND0784|Jaipur|Nashik|Volvo Multi-Axle|10:00|1194|4540|2500
+IND0785|Agartala|Thiruvananthapuram|Volvo Multi-Axle|18:15|1491|5670|3120
+IND0786|Goa|Visakhapatnam|AC Luxury|22:00|1006|3020|1660
+IND0787|Ranchi|Imphal|Express|15:30|1479|2370|1300
+IND0788|Jamshedpur|Patna|AC Sleeper|04:00|143|360|200
+IND0789|Patna|Agra|AC Luxury|15:45|458|1370|750
+IND0790|Jaipur|Hyderabad|Super Fast|07:30|689|1310|720
+IND0791|Chandigarh|Vijayawada|Express|17:45|945|1510|830
+IND0792|Nagpur|Lucknow|AC Sleeper|14:45|300|750|410
+IND0793|Hyderabad|Chennai|Super Fast|03:45|1458|2770|1520
+IND0794|Noida|Dehradun|AC Sleeper|13:00|1261|3150|1730
+IND0795|Kochi|Delhi|Ordinary|19:30|1161|1390|760
+IND0796|Kochi|Mumbai|Volvo Multi-Axle|21:45|818|3110|1710
+IND0797|Bhopal|Chandigarh|Express|14:30|1267|2030|1120
+IND0798|Bhubaneswar|Kolkata|AC Sleeper|22:30|1046|2620|1440
+IND0799|Shimla|Dehradun|Volvo Multi-Axle|07:00|819|3110|1710
+IND0800|Indore|Cuttack|Super Fast|17:30|337|640|350
+IND0801|Gurugram|Agra|AC Sleeper|04:45|339|850|470
+IND0802|Nashik|Bhubaneswar|Express|06:00|924|1480|810
+IND0803|Mumbai|Coimbatore|Express|22:30|340|540|300
+IND0804|Mysuru|Gurugram|Volvo Multi-Axle|21:00|1042|3960|2180
+IND0805|Coimbatore|Ranchi|AC Luxury|16:15|1141|3420|1880
+IND0806|Delhi|Visakhapatnam|Volvo Multi-Axle|01:45|1318|5010|2760
+IND0807|Madurai|Vijayawada|Express|22:15|382|610|340
+IND0808|Dehradun|Gwalior|Volvo Multi-Axle|19:30|1152|4380|2410
+IND0809|Gwalior|Mysuru|AC Luxury|22:15|680|2040|1120
+IND0810|Bengaluru|Goa|Super Fast|14:15|402|760|420
+IND0811|Mysuru|Kolkata|Volvo Multi-Axle|23:30|1241|4720|2600
+IND0812|Rajkot|Shillong|Volvo Multi-Axle|17:15|531|2020|1110
+IND0813|Mumbai|Bhubaneswar|Volvo Multi-Axle|09:30|1497|5690|3130
+IND0814|Jammu|Shillong|Volvo Multi-Axle|05:30|356|1350|740
+IND0815|Indore|Kochi|AC Sleeper|18:45|1500|3750|2060
+IND0816|Agartala|Tirupati|Super Fast|13:00|1190|2260|1240
+IND0817|Dehradun|Noida|AC Sleeper|04:00|1492|3730|2050
+IND0818|Chandigarh|Varanasi|Super Fast|05:30|633|1200|660
+IND0819|Amritsar|Chandigarh|Volvo Multi-Axle|09:15|1228|4670|2570
+IND0820|Gurugram|Indore|AC Sleeper|03:15|1445|3610|1990
+IND0821|Kochi|Gwalior|Express|16:30|1480|2370|1300
+IND0822|Chandigarh|Gwalior|AC Sleeper|13:30|1250|3120|1720
+IND0823|Chandigarh|Delhi|Volvo Multi-Axle|08:15|1390|5280|2900
+IND0824|Chennai|Pune|Volvo Multi-Axle|22:30|1325|5040|2770
+IND0825|Tirupati|Agartala|AC Luxury|06:15|722|2170|1190
+IND0826|Chennai|Kanpur|Volvo Multi-Axle|02:15|475|1800|990
+IND0827|Agartala|Vijayawada|Ordinary|12:00|997|1200|660
+IND0828|Ahmedabad|Kochi|Super Fast|04:15|1316|2500|1380
+IND0829|Nashik|Delhi|Super Fast|14:15|201|380|210
+IND0830|Amritsar|Rajkot|AC Luxury|01:30|1124|3370|1850
+IND0831|Thiruvananthapuram|Kochi|Super Fast|02:30|1196|2270|1250
+IND0832|Pune|Kanpur|AC Luxury|02:15|971|2910|1600
+IND0833|Tirupati|Bengaluru|Ordinary|11:15|556|670|370
+IND0834|Ranchi|Goa|Super Fast|11:30|567|1080|590
+IND0835|Bhubaneswar|Visakhapatnam|AC Sleeper|17:00|354|880|480
+IND0836|Ranchi|Indore|AC Sleeper|07:15|201|500|280
+IND0837|Jamshedpur|Rajkot|AC Sleeper|03:45|645|1610|890
+IND0838|Tirupati|Imphal|Super Fast|00:30|1173|2230|1230
+IND0839|Vijayawada|Chennai|AC Sleeper|01:30|1454|3640|2000
+IND0840|Varanasi|Rajkot|AC Luxury|02:00|462|1390|760
+IND0841|Tirupati|Delhi|Volvo Multi-Axle|02:15|1492|5670|3120
+IND0842|Cuttack|Mumbai|Volvo Multi-Axle|13:00|541|2060|1130
+IND0843|Tirupati|Guwahati|Volvo Multi-Axle|13:00|434|1650|910
+IND0844|Noida|Coimbatore|Volvo Multi-Axle|10:00|299|1140|630
+IND0845|Jaipur|Chandigarh|Express|08:00|1297|2080|1140
+IND0846|Pune|Nashik|AC Sleeper|12:45|1410|3520|1940
+IND0847|Bengaluru|Mangaluru|Super Fast|00:45|1498|2850|1570
+IND0848|Shimla|Tirupati|Ordinary|20:00|1319|1580|870
+IND0849|Gurugram|Guwahati|Ordinary|11:00|713|860|470
+IND0850|Jamshedpur|Vadodara|AC Luxury|02:30|1016|3050|1680
+IND0851|Gwalior|Bengaluru|Volvo Multi-Axle|00:45|440|1670|920
+IND0852|Tirupati|Pune|Express|23:45|1237|1980|1090
+IND0853|Surat|Cuttack|Express|09:30|142|230|130
+IND0854|Kochi|Amritsar|Ordinary|01:00|1292|1550|850
+IND0855|Kolkata|Bengaluru|AC Luxury|17:00|744|2230|1230
+IND0856|Mumbai|Agartala|Volvo Multi-Axle|23:30|553|2100|1160
+IND0857|Mysuru|Patna|AC Luxury|04:15|496|1490|820
+IND0858|Pune|Bhubaneswar|Super Fast|06:00|491|930|510
+IND0859|Ranchi|Thiruvananthapuram|Ordinary|17:45|1440|1730|950
+IND0860|Kochi|Jaipur|Super Fast|21:00|633|1200|660
+IND0861|Dehradun|Varanasi|Volvo Multi-Axle|18:45|797|3030|1670
+IND0862|Indore|Jammu|Volvo Multi-Axle|20:15|324|1230|680
+IND0863|Surat|Bhubaneswar|Ordinary|06:30|1115|1340|740
+IND0864|Chennai|Goa|AC Luxury|21:30|1316|3950|2170
+IND0865|Amritsar|Thiruvananthapuram|AC Luxury|11:30|997|2990|1640
+IND0866|Agra|Delhi|Super Fast|07:15|1432|2720|1500
+IND0867|Mangaluru|Ahmedabad|Super Fast|04:30|1102|2090|1150
+IND0868|Coimbatore|Chennai|Super Fast|09:45|1249|2370|1300
+IND0869|Dehradun|Kanpur|Volvo Multi-Axle|19:00|694|2640|1450
+IND0870|Jammu|Tirupati|Express|08:00|274|440|240
+IND0871|Noida|Vijayawada|Volvo Multi-Axle|00:45|1328|5050|2780
+IND0872|Mumbai|Gurugram|AC Luxury|08:45|1459|4380|2410
+IND0873|Amritsar|Bhopal|AC Sleeper|07:30|394|980|540
+IND0874|Coimbatore|Vijayawada|AC Luxury|02:45|865|2600|1430
+IND0875|Vijayawada|Delhi|Volvo Multi-Axle|07:15|1172|4450|2450
+IND0876|Jammu|Chennai|Express|05:15|1110|1780|980
+IND0877|Indore|Gurugram|Express|15:15|248|400|220
+IND0878|Nashik|Bhopal|Express|01:15|1180|1890|1040
+IND0879|Bhopal|Gwalior|AC Sleeper|14:00|201|500|280
+IND0880|Patna|Rajkot|Ordinary|22:30|659|790|430
+IND0881|Kozhikode|Tirupati|AC Luxury|05:45|1458|4370|2400
+IND0882|Gwalior|Bhopal|AC Luxury|20:00|1178|3530|1940
+IND0883|Nashik|Gwalior|Express|16:45|842|1350|740
+IND0884|Indore|Hyderabad|AC Sleeper|19:00|1147|2870|1580
+IND0885|Jammu|Chennai|Express|07:00|1173|1880|1030
+IND0886|Patna|Ahmedabad|Express|04:15|442|710|390
+IND0887|Bhopal|Kolkata|Volvo Multi-Axle|03:15|969|3680|2020
+IND0888|Goa|Imphal|Ordinary|15:45|1101|1320|730
+IND0889|Mumbai|Kozhikode|Express|20:45|165|260|140
+IND0890|Nagpur|Gurugram|Express|18:15|395|630|350
+IND0891|Cuttack|Vijayawada|Ordinary|18:15|234|280|150
+IND0892|Agra|Nashik|Express|16:45|1347|2160|1190
+IND0893|Thiruvananthapuram|Cuttack|Ordinary|23:30|295|350|190
+IND0894|Mumbai|Chennai|AC Luxury|15:45|469|1410|780
+IND0895|Pune|Mysuru|AC Luxury|04:15|1396|4190|2300
+IND0896|Ranchi|Vijayawada|Super Fast|05:30|1048|1990|1090
+IND0897|Kolkata|Kozhikode|Ordinary|07:45|909|1090|600
+IND0898|Jammu|Dehradun|Ordinary|06:45|426|510|280
+IND0899|Kolkata|Dehradun|Express|15:00|1208|1930|1060
+IND0900|Vijayawada|Shimla|Ordinary|15:15|1355|1630|900
+IND0901|Tirupati|Delhi|Volvo Multi-Axle|20:45|1189|4520|2490
+IND0902|Mysuru|Bhopal|Ordinary|22:45|589|710|390
+IND0903|Madurai|Gwalior|Super Fast|18:00|991|1880|1030
+IND0904|Jammu|Nashik|AC Sleeper|07:00|700|1750|960
+IND0905|Kolkata|Tirupati|AC Sleeper|08:15|131|330|180
+IND0906|Shillong|Agartala|Ordinary|18:00|1184|1420|780
+IND0907|Delhi|Gwalior|Volvo Multi-Axle|06:30|957|3640|2000
+IND0908|Bhopal|Dehradun|Express|13:30|655|1050|580
+IND0909|Tirupati|Mangaluru|AC Luxury|11:30|933|2800|1540
+IND0910|Mumbai|Mysuru|AC Luxury|17:45|486|1460|800
+IND0911|Bhopal|Kochi|AC Luxury|15:30|748|2240|1230
+IND0912|Thiruvananthapuram|Indore|Volvo Multi-Axle|12:15|1470|5590|3070
+IND0913|Shimla|Agartala|Express|14:15|325|520|290
+IND0914|Mumbai|Vijayawada|AC Sleeper|10:00|449|1120|620
+IND0915|Gwalior|Cuttack|Ordinary|02:15|1085|1300|720
+IND0916|Kolkata|Mangaluru|Ordinary|02:30|574|690|380
+IND0917|Bhopal|Lucknow|AC Luxury|01:45|940|2820|1550
+IND0918|Bhubaneswar|Patna|AC Luxury|09:00|478|1430|790
+IND0919|Cuttack|Hyderabad|AC Sleeper|00:15|1465|3660|2010
+IND0920|Visakhapatnam|Surat|Express|01:15|1379|2210|1220
+IND0921|Agra|Jamshedpur|Ordinary|11:15|1461|1750|960
+IND0922|Delhi|Agra|Ordinary|08:45|843|1010|560
+IND0923|Ranchi|Bengaluru|AC Sleeper|18:15|1180|2950|1620
+IND0924|Delhi|Agartala|Volvo Multi-Axle|02:00|1245|4730|2600
+IND0925|Surat|Imphal|AC Luxury|18:30|831|2490|1370
+IND0926|Ahmedabad|Pune|AC Luxury|06:45|947|2840|1560
+IND0927|Thiruvananthapuram|Delhi|Super Fast|05:45|1156|2200|1210
+IND0928|Dehradun|Kochi|Ordinary|16:30|816|980|540
+IND0929|Shimla|Vijayawada|Super Fast|17:30|1026|1950|1070
+IND0930|Gwalior|Thiruvananthapuram|AC Sleeper|07:30|1059|2650|1460
+IND0931|Jamshedpur|Coimbatore|AC Luxury|00:45|358|1070|590
+IND0932|Nashik|Jaipur|AC Sleeper|20:15|590|1480|810
+IND0933|Rajkot|Mysuru|Super Fast|16:00|659|1250|690
+IND0934|Nagpur|Surat|Ordinary|12:30|275|330|180
+IND0935|Kochi|Kanpur|AC Sleeper|10:30|567|1420|780
+IND0936|Thiruvananthapuram|Ahmedabad|Express|23:15|1141|1830|1010
+IND0937|Agartala|Varanasi|Express|23:15|663|1060|580
+IND0938|Mumbai|Pune|Express|07:30|439|700|390
+IND0939|Dehradun|Shimla|Ordinary|21:45|1377|1650|910
+IND0940|Delhi|Tirupati|Ordinary|15:30|1391|1670|920
+IND0941|Rajkot|Hyderabad|AC Luxury|08:45|494|1480|810
+IND0942|Vijayawada|Ahmedabad|AC Sleeper|07:15|230|580|320
+IND0943|Visakhapatnam|Mangaluru|AC Sleeper|17:00|1149|2870|1580
+IND0944|Indore|Bengaluru|Volvo Multi-Axle|05:45|366|1390|760
+IND0945|Guwahati|Visakhapatnam|AC Sleeper|10:00|144|360|200
+IND0946|Jamshedpur|Mumbai|AC Sleeper|18:00|786|1960|1080
+IND0947|Bhopal|Bhubaneswar|Super Fast|05:30|605|1150|630
+IND0948|Ahmedabad|Madurai|AC Luxury|10:30|496|1490|820
+IND0949|Hyderabad|Mangaluru|Express|13:30|867|1390|760
+IND0950|Bengaluru|Ahmedabad|AC Sleeper|05:15|1299|3250|1790
+IND0951|Jamshedpur|Pune|Ordinary|23:30|602|720|400
+IND0952|Kochi|Mangaluru|AC Sleeper|06:15|426|1060|580
+IND0953|Madurai|Delhi|Express|13:45|395|630|350
+IND0954|Cuttack|Visakhapatnam|AC Luxury|23:30|1116|3350|1840
+IND0955|Vadodara|Nashik|AC Luxury|18:00|935|2800|1540
+IND0956|Dehradun|Guwahati|Express|01:15|640|1020|560
+IND0957|Madurai|Cuttack|Ordinary|14:30|652|780|430
+IND0958|Bhopal|Kochi|AC Luxury|08:30|160|480|260
+IND0959|Mysuru|Shimla|Super Fast|21:15|1301|2470|1360
+IND0960|Thiruvananthapuram|Patna|Volvo Multi-Axle|17:15|702|2670|1470
+IND0961|Indore|Rajkot|Volvo Multi-Axle|16:45|1035|3930|2160
+IND0962|Lucknow|Gwalior|AC Luxury|09:45|1413|4240|2330
+IND0963|Amritsar|Agra|Volvo Multi-Axle|10:45|1412|5370|2950
+IND0964|Bhubaneswar|Thiruvananthapuram|AC Sleeper|02:00|451|1130|620
+IND0965|Goa|Pune|Super Fast|10:30|667|1270|700
+IND0966|Kolkata|Patna|AC Sleeper|08:45|863|2160|1190
+IND0967|Agartala|Kozhikode|AC Luxury|14:45|462|1390|760
+IND0968|Kanpur|Noida|Express|23:15|1475|2360|1300
+IND0969|Nashik|Agartala|Volvo Multi-Axle|23:00|551|2090|1150
+IND0970|Agra|Bengaluru|Ordinary|03:00|1089|1310|720
+IND0971|Kochi|Chandigarh|Ordinary|12:00|332|400|220
+IND0972|Nashik|Bhubaneswar|Express|02:45|753|1200|660
+IND0973|Pune|Nagpur|Volvo Multi-Axle|09:45|1403|5330|2930
+IND0974|Jammu|Visakhapatnam|Express|00:00|1478|2360|1300
+IND0975|Indore|Rajkot|AC Sleeper|14:30|1243|3110|1710
+IND0976|Chennai|Jammu|Volvo Multi-Axle|17:15|1330|5050|2780
+IND0977|Kolkata|Coimbatore|Volvo Multi-Axle|23:45|1192|4530|2490
+IND0978|Cuttack|Tirupati|Super Fast|11:45|1225|2330|1280
+IND0979|Pune|Lucknow|AC Sleeper|09:30|964|2410|1330
+IND0980|Nashik|Amritsar|Super Fast|00:00|1191|2260|1240
+IND0981|Jammu|Indore|Super Fast|15:00|1127|2140|1180
+IND0982|Madurai|Vadodara|Ordinary|13:30|1342|1610|890
+IND0983|Pune|Delhi|AC Luxury|11:15|963|2890|1590
+IND0984|Kochi|Mangaluru|AC Sleeper|07:15|1442|3600|1980
+IND0985|Gwalior|Pune|Super Fast|02:45|1400|2660|1460
+IND0986|Nagpur|Visakhapatnam|AC Luxury|22:30|703|2110|1160
+IND0987|Patna|Agartala|AC Luxury|08:45|505|1520|840
+IND0988|Jaipur|Kanpur|Express|09:00|1424|2280|1250
+IND0989|Coimbatore|Bhubaneswar|AC Sleeper|08:45|504|1260|690
+IND0990|Rajkot|Noida|Express|01:00|500|800|440
+IND0991|Dehradun|Surat|Super Fast|04:45|136|260|140
+IND0992|Pune|Lucknow|Express|00:45|564|900|500
+IND0993|Goa|Mysuru|Super Fast|15:30|1069|2030|1120
+IND0994|Guwahati|Gurugram|Super Fast|02:15|234|440|240
+IND0995|Ahmedabad|Bengaluru|Ordinary|17:45|491|590|320
+IND0996|Varanasi|Nashik|AC Sleeper|00:00|629|1570|860
+IND0997|Gwalior|Chennai|Express|23:00|527|840|460
+IND0998|Coimbatore|Agartala|Ordinary|16:15|1088|1310|720
+IND0999|Gwalior|Jamshedpur|Super Fast|10:15|1408|2680|1470
+IND1000|Imphal|Gurugram|Volvo Multi-Axle|17:00|638|2420|1330

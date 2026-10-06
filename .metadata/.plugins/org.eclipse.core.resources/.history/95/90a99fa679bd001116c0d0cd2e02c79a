@@ -1,0 +1,104 @@
+BUS_ID|FROM|TO|SERVICE_TYPE|DEPARTURE|DISTANCE_KM|ADULT_FARE|CHILD_FARE
+
+GNT001|Guntur|Kondaveedu Kota|Pallevelugu|08:00,10:00,12:30,14:00,15:30,17:30,19:00,20:30|35|13|7
+GNT002|Macherla|Nagarjunasagar|Pallevelugu|Every 15 min|47|17|9
+GNT003|Macherla|Pochampad Project|Express|Every 45 min,05:00-20:00|33|13|7
+GNT004|Guntur|Undavalli Caves,Vijayawada|Pallevelugu|Every 10 min,04:30-22:30|30|11|6
+GNT005|Guntur|Amaravati|Pallevelugu|Every 20 min,04:30-22:00|38|14|7
+GNT006|Guntur|Amaravati|Express|05:30,06:20,07:10,08:00,08:50,09:40,10:30,11:20,12:10,13:00,14:00,14:30,15:30,16:30,17:10,18:00,19:00,19:40|38|14|7
+GNT007|Guntur|Amaravati|Pallevelugu|Every 15 min,04:30-22:00|38|14|7
+GNT008|Guntur|Mangalagiri|Pallevelugu|Every 5 min,04:30-22:30|33|13|7
+GNT009|Narasaraopet|Kotappakonda|Pallevelugu|Every 20 min,05:00-20:00|15|6|13
+GNT010|Narasaraopet|Kotappakonda|Pallevelugu|07:35,08:30,12:00,14:00,16:50,19:15|17|11|6
+GNT011|Chilakaluripet|Kotappakonda|Pallevelugu|Every 20 min,05:00-20:00|17|--|--
+GNT012|Guntur|Ponnur|Pallevelugu|Every 10 min,05:00-22:00|30|11|6
+GNT013|Guntur|Ponnur|Express|Every 10 min,05:00-22:00|30|12|6
+
+PLN001|Macherla|Nagarjunasagar|Pallevelugu|Every 15 min|47|17|9
+PLN002|Macherla|Pochampad Project|Express|Every 45 min,05:00-20:00|33|13|7
+PLN003|Narasaraopet|Kotappakonda|Pallevelugu|Every 20 min,05:00-20:00|15|6|--
+PLN004|Narasaraopet|Kotappakonda|Pallevelugu|07:35,08:30,12:00,14:00,16:50,19:15|17|11|6
+PLN005|Chilakaluripet|Kotappakonda|Pallevelugu|Every 20 min,05:00-20:00|17|--|--
+PLN006|Macherla|Chilakaluripet|Pallevelugu|Daily service|--|--|--
+PLN007|Macherla|Guntur|Express|Daily service|131|180|--
+PLN008|Macherla|Markapuram|Pallevelugu|Daily service|--|--|--
+PLN009|Macherla|Srisailam|Pallevelugu|Daily service|--|--|--
+PLN010|Narasaraopeta|Chirala|Pallevelugu|Daily service|--|--|--
+PLN011|Narasaraopeta|Ongole|Pallevelugu|Daily service|--|--|--
+PLN012|Narasaraopeta|Guntur|Ultra Deluxe|Daily service|--|--|--
+PLN013|Piduguralla|Guntur|Pallevelugu|Daily service|--|--|--
+PLN014|Piduguralla|Macherla|Pallevelugu|Daily service|--|--|--
+PLN015|Piduguralla|Narasaraopet|Pallevelugu|Daily service|--|--|--
+PLN016|Piduguralla|Vinukonda|Pallevelugu|Daily service|--|--|--
+PLN017|Sattenapalli|Narasaraopet|Pallevelugu|Daily service|--|--|--
+
+VJA001|Avanigadda|Hamsaladeevi|Pallevelugu|05:15,07:10,09:00,10:20,12:30,15:10,16:45,18:15,22:15|23|9|6
+VJA002|Avanigadda|Srikakulam|Pallevelugu|06:05,08:00,08:25,12:10,13:40,14:25,16:15,22:25|15|6|3
+VJA003|Vijayawada|Srikakulam|Pallevelugu|05:00,07:45,14:40,15:30,17:20,19:40|58|20|10
+VJA004|Avanigadda|Pedakallepalli|Pallevelugu|06:35,07:45,08:30,09:40,11:00,13:15,13:55,15:10,16:10,17:40,19:00,20:05,22:10|8|4|3
+VJA005|Vijayawada|Pedakallepalli|Pallevelugu|11:30,20:15|85|28|14
+VJA006|Avanigadda|Mopidevi|Pallevelugu|Every 15 min|7|4|3
+VJA007|Vijayawada|Mopidevi|Deluxe|03:30-22:30|85|37|19
+VJA008|Vijayawada|Mopidevi|Express|Every 15 min|30|30|15
+VJA009|Vijayawada|Mopidevi|Pallevelugu|Every 15 min|--|28|14
+VJA010|Avanigadda|Vijayawada|Super Luxury|Every 20 min|88|46|23
+VJA011|Avanigadda|Vijayawada|Deluxe|Every 20 min|88|40|20
+VJA012|Avanigadda|Vijayawada|Express|Every 20 min|88|36|18
+VJA013|Avanigadda|Vijayawada|Pallevelugu|Every 20 min|88|32|16
+VJA014|Vijayawada|Machilipatnam|Deluxe|Every 20 min|72|33|17
+VJA015|Vijayawada|Machilipatnam|Express|Every 20 min|72|29|15
+VJA016|Vijayawada|Machilipatnam|Pallevelugu|Every 15 min|72|27|14
+VJA017|Avanigadda|Penuganchiprolu|Fast Service|06:15|155|56|28
+VJA018|Jaggaiahpeta|Penuganchiprolu|Pallevelugu|05:30,06:15,07:15,07:45,08:15,08:45,09:15,10:00,10:45,11:30,11:45,12:15,13:00,13:30,14:15,14:45,15:30,16:15,17:00,17:45,18:30,19:15,20:00|20|7|4
+VJA019|Vijayawada|Penuganchiprolu|Pallevelugu|Every 45 min|67|23|12
+VJA020|Jaggaiahpeta|Vedadri|Pallevelugu|05:30,07:30,09:30,14:30,16:30,18:30,20:00|12|6|3
+VJA021|Vijayawada|Vedadri|Pallevelugu|10:30,16:30|76|26|13
+VJA022|Vijayawada|Agiripalli|Pallevelugu|Every 30 min,04:00-22:15|30|11|6
+VJA023|Vijayawada|Agiripalli|Express|Every 30 min,04:00-22:15|30|12|6
+VJA024|Vijayawada|Agiripalli|Super Luxury|Every 15 min|30|38|19
+VJA025|Vijayawada|Machilipatnam|Deluxe|Round the clock|30|32|16
+VJA026|Vijayawada|Machilipatnam|Express|Round the clock|30|27|14
+VJA027|Vijayawada|Machilipatnam|Pallevelugu|Round the clock|30|24|12
+VJA028|Vijayawada|Nemali|Pallevelugu|20:15|97|32|16
+VJA029|Tiruvur|Nemali|Pallevelugu|08:20,12:30,15:45|35|13|7
+VJA030|Vijayawada|Pedaoutpalli|Pallevelugu|Every 15 min|29|10|5
+
+RJM001|Rajahmundry|Rampachodavaram|Pallevelugu|04:20,04:30,06:00|58|21|11
+RJM002|Rajahmundry|Rampachodavaram|Express|08:00,10:10,12:00,12:50,14:30,14:45,15:20,16:00,16:30,17:00,17:45,18:15|58|24|12
+RJM003|Rajahmundry|Kadiyapulanka|Pallevelugu|Every 15 min|--|6|3
+RJM004|Rajahmundry|Road Cum Rail Bridge|Pallevelugu|Every 5 min|5|3|3
+RJM005|Rajahmundry|Road Cum Rail Bridge|Express|Every 5 min|5|3|3
+RJM006|Rajahmundry|Godavari River|Pallevelugu|Every 5 min|5|3|3
+RJM007|Rajahmundry|Godavari River|Express|Every 5 min|5|3|3
+RJM008|Rajahmundry|Dowlaiswaram Anicut|Ordinary|Every 5 min|5|3|3
+RJM009|Rajahmundry|Dowlaiswaram Anicut|Express|Every 5 min|5|3|3
+RJM010|Kakinada|Deep Water Port|Pallevelugu|--|5|3|3
+RJM011|Kakinada|Beach|Pallevelugu|--|5|3|3
+RJM012|Kakinada|Nagarjuna Fertilizers|Pallevelugu|--|5|3|3
+RJM013|Kakinada|Godavari Fertilizers|Pallevelugu|--|5|3|3
+
+KUR001|Atmakur|Srisailam|Super Luxury|05:00|120|63|32
+KUR002|Atmakur|Srisailam|Express|03:15,05:00,09:30,12:00,13:30,14:30,16:30|120|48|24
+KUR003|Atmakur|Srisailam|Pallevelugu|06:30,07:30,08:30,10:30,12:45,17:40|120|42|21
+KUR004|Kurnool|Srisailam|Super Luxury|03:00|191|100|50
+KUR005|Kurnool|Srisailam|Pallevelugu|08:00|191|68|34
+KUR006|Nandyal|Srisailam|Express|06:30,08:00,10:45,14:30,16:00|172|69|35
+KUR007|Nandyal|Srisailam|Pallevelugu|06:30,10:45,16:00|172|62|31
+KUR008|Bangalore|Srisailam|Super Luxury|17:20|555|296|148
+KUR009|Kurnool|Manthralayam|Express|01:00,04:15,09:30,13:15,19:45|91|37|19
+KUR010|Kurnool|Manthralayam|Deluxe|05:15|91|41|22
+KUR011|Yemmiganur|Manthralayam|Express|Every 30 min|24|10|6
+KUR012|Yemmiganur|Manthralayam|Pallevelugu|Every 30 min|24|9|6
+KUR013|Kurnool|Alampur|Pallevelugu|05:00,05:45,06:30,07:00,07:30,08:05,08:30,09:00,09:30,10:00,10:35,11:05,11:35,12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30,16:00,16:40,17:20,18:00,19:00,19:45,21:30|29|11|6
+KUR014|Nandyal|Mahanandi|Pallevelugu|04:30,06:00,06:40,07:25,08:00,08:40,09:20,10:00,10:40,11:05,11:30,12:20,13:00,13:40,14:00,14:20,14:45,15:00,15:40,16:20,17:00,17:15,18:20,18:45,19:00,20:00,20:40,22:00|19|7|4
+KUR015|Allagadda|Ahobilam|Pallevelugu|05:00,05:30,06:30,07:30,08:30,09:30,10:30,11:30,12:30,13:30,14:30,15:30,16:30,17:30,18:30,19:30,20:30|12|9|3
+KUR016|Banaganapalli|Yaganti|Pallevelugu|08:30,15:45|12|6|3
+
+KDP001|Mydukur|Brahmam gari Mattham|--|05:30,06:30,07:30,08:45,09:45,12:00,13:30,15:00,16:30,18:00,19:30,21:45|37|--|--
+KDP002|Kadapa|Sidhout|--|Every 20 min|22|--|--
+KDP003|Jammalamadugu|Gandikota|--|06:30,09:30,13:45,17:30,21:30|25|--|--
+KDP004|Vempally|Gandi|--|Every 20 min|10|--|--
+KDP005|Kadapa|Ontimitta|--|08:00|25|--|--
+KDP006|Kadapa|Pushpagiri|--|05:45,17:15|14|--|--
+KDP007|Rajampet|Hatyarala|--|06:00,12:00,16:00|8|--|--
+KDP008|Rajampet|Nandalur|--|Every 15 min,up to Tallapaka|12|--|--

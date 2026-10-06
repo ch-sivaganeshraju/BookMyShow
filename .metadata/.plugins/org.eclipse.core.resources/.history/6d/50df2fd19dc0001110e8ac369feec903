@@ -1,0 +1,1200 @@
+/* =====================================================
+   BUS DATA
+===================================================== */
+
+const buses = [
+
+    {
+        id: "BMT101",
+        name: "Express Travels",
+        type: "AC Sleeper",
+        from: "Hyderabad",
+        to: "Vijayawada",
+        departure: "06:30 AM",
+        arrival: "12:00 PM",
+        distance: 275,
+        fare: 550
+    },
+
+    {
+        id: "BMT102",
+        name: "City Connect",
+        type: "AC Seater",
+        from: "Hyderabad",
+        to: "Vijayawada",
+        departure: "09:00 AM",
+        arrival: "03:00 PM",
+        distance: 275,
+        fare: 450
+    },
+
+    {
+        id: "BMT103",
+        name: "Orange Bus",
+        type: "Non-AC Seater",
+        from: "Hyderabad",
+        to: "Vijayawada",
+        departure: "02:30 PM",
+        arrival: "08:30 PM",
+        distance: 275,
+        fare: 350
+    },
+
+    {
+        id: "BMT104",
+        name: "Morning Star",
+        type: "AC Sleeper",
+        from: "Hyderabad",
+        to: "Warangal",
+        departure: "07:00 AM",
+        arrival: "10:00 AM",
+        distance: 150,
+        fare: 400
+    },
+
+    {
+        id: "BMT105",
+        name: "Telangana Express",
+        type: "AC Seater",
+        from: "Warangal",
+        to: "Hyderabad",
+        departure: "04:30 PM",
+        arrival: "07:30 PM",
+        distance: 150,
+        fare: 400
+    }
+
+];
+
+
+/* =====================================================
+   BOOKING VARIABLES
+===================================================== */
+
+let selectedBus = null;
+
+let selectedSeats = [];
+
+
+/*
+    Temporary booked seats.
+
+    Later these will come from your Java backend.
+*/
+
+let bookedSeats = [
+
+    3,
+    4,
+    9,
+    10,
+    17,
+    18,
+    25,
+    31,
+    32,
+    40
+
+];
+
+
+/* =====================================================
+   GET ELEMENT
+===================================================== */
+
+function get(id) {
+
+    return document.getElementById(id);
+
+}
+
+
+/* =====================================================
+   SCROLL TO BOOKING
+===================================================== */
+
+function scrollToBooking() {
+
+    get("booking").scrollIntoView({
+        behavior: "smooth"
+    });
+
+}
+
+
+/* =====================================================
+   SWAP LOCATIONS
+===================================================== */
+
+function swapLocations() {
+
+    const from = get("fromLocation");
+
+    const to = get("toLocation");
+
+    const temp = from.value;
+
+    from.value = to.value;
+
+    to.value = temp;
+
+}
+
+
+/* =====================================================
+   SEARCH BUSES
+===================================================== */
+
+function searchBuses() {
+
+    const from =
+        get("fromLocation")
+            .value
+            .trim();
+
+    const to =
+        get("toLocation")
+            .value
+            .trim();
+
+
+    if (!from || !to) {
+
+        showToast(
+            "Please enter both locations."
+        );
+
+        return;
+
+    }
+
+
+    if (
+        from.toLowerCase()
+        ===
+        to.toLowerCase()
+    ) {
+
+        showToast(
+            "From and To cannot be same."
+        );
+
+        return;
+
+    }
+
+
+    const results =
+        buses.filter(function(bus) {
+
+            return (
+
+                bus.from.toLowerCase()
+                ===
+                from.toLowerCase()
+
+                &&
+
+                bus.to.toLowerCase()
+                ===
+                to.toLowerCase()
+
+            );
+
+        });
+
+
+    displayBuses(
+        results,
+        from,
+        to
+    );
+
+}
+
+
+/* =====================================================
+   DISPLAY BUSES
+===================================================== */
+
+function displayBuses(
+    results,
+    from,
+    to
+) {
+
+    const section =
+        get("resultsSection");
+
+    const container =
+        get("busResults");
+
+
+    section.classList.add("show");
+
+
+    get("routeTitle").textContent =
+        from + " → " + to;
+
+
+    get("busCount").textContent =
+        results.length
+        +
+        " bus"
+        +
+        (
+            results.length !== 1
+                ? "es"
+                : ""
+        )
+        +
+        " found";
+
+
+    if (results.length === 0) {
+
+        container.innerHTML = `
+
+            <div class="bus-card">
+
+                <div>
+
+                    <h3>
+                        🚌 No buses found
+                    </h3>
+
+                    <p>
+                        Try another route.
+                    </p>
+
+                </div>
+
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    container.innerHTML =
+        results.map(function(bus) {
+
+            return `
+
+                <div class="bus-card">
+
+
+                    <div>
+
+                        <div class="bus-name">
+                            ${bus.name}
+                        </div>
+
+                        <span class="bus-type">
+                            ${bus.type}
+                        </span>
+
+                    </div>
+
+
+                    <div class="bus-info">
+
+                        <div>
+
+                            <div class="bus-time">
+                                ${bus.departure}
+                            </div>
+
+                            <div class="bus-location">
+                                ${bus.from}
+                            </div>
+
+                        </div>
+
+
+                        <div>
+                            →
+                        </div>
+
+
+                        <div>
+
+                            <div class="bus-time">
+                                ${bus.arrival}
+                            </div>
+
+                            <div class="bus-location">
+                                ${bus.to}
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                        <div class="bus-distance">
+                            📍 ${bus.distance} KM
+                        </div>
+
+                        <div class="bus-distance">
+                            💺 41 seats
+                        </div>
+
+                    </div>
+
+
+                    <div class="bus-fare">
+
+                        <strong>
+                            ₹${bus.fare}
+                        </strong>
+
+                        <br>
+
+                        <button
+                            class="select-bus"
+                            onclick="selectBus('${bus.id}')">
+
+                            Select
+
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+            `;
+
+        }).join("");
+
+
+    section.scrollIntoView({
+        behavior: "smooth"
+    });
+
+}
+
+
+/* =====================================================
+   SELECT BUS
+===================================================== */
+
+function selectBus(busId) {
+
+    selectedBus =
+        buses.find(function(bus) {
+
+            return bus.id === busId;
+
+        });
+
+
+    if (!selectedBus) {
+
+        return;
+
+    }
+
+
+    selectedSeats = [];
+
+
+    get("summaryFrom").textContent =
+        selectedBus.from;
+
+    get("summaryTo").textContent =
+        selectedBus.to;
+
+    get("summaryBus").textContent =
+        selectedBus.name;
+
+
+    generateSeats();
+
+    updateSummary();
+
+
+    get("seatSection")
+        .classList
+        .add("show");
+
+
+    get("seatSection")
+        .scrollIntoView({
+            behavior: "smooth"
+        });
+
+
+    showToast(
+        selectedBus.name
+        +
+        " selected."
+    );
+
+}
+
+
+/* =====================================================
+   GENERATE SEATS
+===================================================== */
+
+function generateSeats() {
+
+    const grid =
+        get("seatGrid");
+
+
+    grid.innerHTML = "";
+
+
+    let seatNumber = 1;
+
+
+    /*
+        Layout:
+
+        01 02    03 04
+        05 06    07 08
+
+        ...
+
+        Last row:
+
+        37 38 39 40 41
+    */
+
+
+    for (
+        let row = 0;
+        row < 10;
+        row++
+    ) {
+
+
+        if (row < 9) {
+
+
+            createSeat(seatNumber++);
+
+            createSeat(seatNumber++);
+
+
+            const aisle =
+                document.createElement(
+                    "div"
+                );
+
+            aisle.className =
+                "seat aisle";
+
+            grid.appendChild(aisle);
+
+
+            createSeat(seatNumber++);
+
+            createSeat(seatNumber++);
+
+
+        } else {
+
+
+            createSeat(seatNumber++);
+
+            createSeat(seatNumber++);
+
+            createSeat(seatNumber++);
+
+            createSeat(seatNumber++);
+
+            createSeat(seatNumber++);
+
+        }
+
+    }
+
+}
+
+
+/* =====================================================
+   CREATE SEAT
+===================================================== */
+
+function createSeat(number) {
+
+    const button =
+        document.createElement(
+            "button"
+        );
+
+
+    button.className = "seat";
+
+
+    button.textContent =
+        String(number)
+            .padStart(2, "0");
+
+
+    if (
+        bookedSeats.includes(number)
+    ) {
+
+        button.classList.add(
+            "booked"
+        );
+
+        button.disabled = true;
+
+    } else {
+
+
+        button.addEventListener(
+            "click",
+            function() {
+
+                toggleSeat(
+                    number,
+                    button
+                );
+
+            }
+        );
+
+    }
+
+
+    get("seatGrid")
+        .appendChild(button);
+
+}
+
+
+/* =====================================================
+   SELECT / UNSELECT SEAT
+===================================================== */
+
+function toggleSeat(
+    number,
+    button
+) {
+
+
+    if (
+        selectedSeats.includes(number)
+    ) {
+
+
+        selectedSeats =
+            selectedSeats.filter(
+                function(seat) {
+
+                    return seat !== number;
+
+                }
+            );
+
+
+        button.classList.remove(
+            "selected"
+        );
+
+
+    } else {
+
+
+        if (
+            selectedSeats.length >= 5
+        ) {
+
+            showToast(
+                "Maximum 5 seats allowed."
+            );
+
+            return;
+
+        }
+
+
+        selectedSeats.push(number);
+
+
+        button.classList.add(
+            "selected"
+        );
+
+    }
+
+
+    updateSummary();
+
+}
+
+
+/* =====================================================
+   UPDATE SUMMARY
+===================================================== */
+
+function updateSummary() {
+
+    if (!selectedBus) {
+
+        return;
+
+    }
+
+
+    const numberOfSeats =
+        selectedSeats.length;
+
+
+    const ticketPrice =
+        selectedBus.fare
+        *
+        numberOfSeats;
+
+
+    const convenienceFee =
+        12
+        *
+        numberOfSeats;
+
+
+    const total =
+        ticketPrice
+        +
+        convenienceFee;
+
+
+    get("seatCount").textContent =
+        numberOfSeats;
+
+
+    if (
+        selectedSeats.length === 0
+    ) {
+
+        get("selectedSeatsText")
+            .textContent = "None";
+
+    } else {
+
+
+        get("selectedSeatsText")
+            .textContent =
+
+            selectedSeats
+                .slice()
+                .sort(
+                    function(a, b) {
+                        return a - b;
+                    }
+                )
+                .map(
+                    function(number) {
+
+                        return String(number)
+                            .padStart(2, "0");
+
+                    }
+                )
+                .join(", ");
+
+    }
+
+
+    get("ticketPrice")
+        .textContent =
+        ticketPrice;
+
+
+    get("convenienceFee")
+        .textContent =
+        convenienceFee;
+
+
+    get("totalPrice")
+        .textContent =
+        total;
+
+}
+
+
+/* =====================================================
+   CONFIRM BOOKING
+===================================================== */
+
+function confirmBooking() {
+
+
+    if (!selectedBus) {
+
+        showToast(
+            "Please select a bus."
+        );
+
+        return;
+
+    }
+
+
+    if (
+        selectedSeats.length === 0
+    ) {
+
+        showToast(
+            "Please select at least one seat."
+        );
+
+        return;
+
+    }
+
+
+    const total =
+
+        selectedBus.fare
+        *
+        selectedSeats.length
+
+        +
+
+        12
+        *
+        selectedSeats.length;
+
+
+    get("ticketFrom")
+        .textContent =
+        selectedBus.from;
+
+
+    get("ticketTo")
+        .textContent =
+        selectedBus.to;
+
+
+    get("ticketBus")
+        .textContent =
+        selectedBus.name;
+
+
+    get("ticketSeats")
+        .textContent =
+
+        selectedSeats
+            .slice()
+            .sort(
+                function(a, b) {
+                    return a - b;
+                }
+            )
+            .map(
+                function(number) {
+
+                    return String(number)
+                        .padStart(2, "0");
+
+                }
+            )
+            .join(", ");
+
+
+    get("ticketTotal")
+        .textContent =
+        total;
+
+
+    get("bookingId")
+        .textContent =
+        generateBookingId();
+
+
+    openModal(
+        "successModal"
+    );
+
+}
+
+
+/* =====================================================
+   GENERATE BOOKING ID
+===================================================== */
+
+function generateBookingId() {
+
+    const number =
+        Math.floor(
+            100000
+            +
+            Math.random()
+            *
+            900000
+        );
+
+
+    return "BMT" + number;
+
+}
+
+
+/* =====================================================
+   LOGIN
+===================================================== */
+
+function login(event) {
+
+    event.preventDefault();
+
+
+    const username =
+        get("loginUsername")
+            .value
+            .trim();
+
+
+    const password =
+        get("loginPassword")
+            .value;
+
+
+    if (!username || !password) {
+
+        showToast(
+            "Enter username and password."
+        );
+
+        return;
+
+    }
+
+
+    /*
+        TEMPORARY LOGIN.
+
+        Later we will connect this
+        to your Java login method.
+    */
+
+
+    showToast(
+        "Login successful!"
+    );
+
+
+    closeModal(
+        "loginModal"
+    );
+
+
+    event.target.reset();
+
+}
+
+
+/* =====================================================
+   SIGNUP
+===================================================== */
+
+function signup(event) {
+
+    event.preventDefault();
+
+
+    const username =
+        get("signupUsername")
+            .value
+            .trim();
+
+
+    const password =
+        get("signupPassword")
+            .value;
+
+
+    const confirmPassword =
+        get("confirmPassword")
+            .value;
+
+
+    if (
+        password !==
+        confirmPassword
+    ) {
+
+        showToast(
+            "Passwords do not match."
+        );
+
+        return;
+
+    }
+
+
+    if (
+        password.length < 4
+    ) {
+
+        showToast(
+            "Password must contain at least 4 characters."
+        );
+
+        return;
+
+    }
+
+
+    /*
+        TEMPORARY SIGNUP.
+
+        Later this will connect
+        to your Java signup method.
+    */
+
+
+    showToast(
+        "Account created successfully!"
+    );
+
+
+    closeModal(
+        "signupModal"
+    );
+
+
+    event.target.reset();
+
+
+    setTimeout(
+        function() {
+
+            openModal(
+                "loginModal"
+            );
+
+        },
+        500
+    );
+
+}
+
+
+/* =====================================================
+   OPEN MODAL
+===================================================== */
+
+function openModal(id) {
+
+    const modal =
+        get(id);
+
+
+    if (modal) {
+
+        modal.classList.add(
+            "active"
+        );
+
+    }
+
+}
+
+
+/* =====================================================
+   CLOSE MODAL
+===================================================== */
+
+function closeModal(id) {
+
+    const modal =
+        get(id);
+
+
+    if (modal) {
+
+        modal.classList.remove(
+            "active"
+        );
+
+    }
+
+}
+
+
+/* =====================================================
+   SWITCH MODALS
+===================================================== */
+
+function switchModal(
+    current,
+    next
+) {
+
+    closeModal(current);
+
+
+    setTimeout(
+        function() {
+
+            openModal(next);
+
+        },
+        100
+    );
+
+}
+
+
+/* =====================================================
+   CLOSE MODAL OUTSIDE
+===================================================== */
+
+document.addEventListener(
+    "click",
+    function(event) {
+
+
+        if (
+            event.target.classList
+                .contains(
+                    "modal-overlay"
+                )
+        ) {
+
+            event.target.classList
+                .remove(
+                    "active"
+                );
+
+        }
+
+    }
+);
+
+
+/* =====================================================
+   MOBILE MENU
+===================================================== */
+
+function toggleMenu() {
+
+    const nav =
+        document.querySelector(
+            ".navbar nav"
+        );
+
+
+    const buttons =
+        document.querySelector(
+            ".nav-buttons"
+        );
+
+
+    if (
+        nav.style.display === "flex"
+    ) {
+
+        nav.style.display = "";
+
+        buttons.style.display = "";
+
+        return;
+
+    }
+
+
+    nav.style.display = "flex";
+
+    buttons.style.display = "flex";
+
+
+    nav.style.position =
+        "absolute";
+
+    nav.style.top =
+        "75px";
+
+    nav.style.left =
+        "0";
+
+    nav.style.right =
+        "0";
+
+    nav.style.background =
+        "white";
+
+    nav.style.padding =
+        "20px";
+
+    nav.style.flexDirection =
+        "column";
+
+
+    buttons.style.position =
+        "absolute";
+
+    buttons.style.top =
+        "200px";
+
+    buttons.style.left =
+        "0";
+
+    buttons.style.right =
+        "0";
+
+    buttons.style.background =
+        "white";
+
+    buttons.style.padding =
+        "15px";
+
+    buttons.style.justifyContent =
+        "center";
+
+}
+
+
+/* =====================================================
+   TOAST
+===================================================== */
+
+let toastTimer;
+
+
+function showToast(message) {
+
+    const toast =
+        get("toast");
+
+
+    toast.textContent =
+        message;
+
+
+    toast.classList.add(
+        "show"
+    );
+
+
+    clearTimeout(
+        toastTimer
+    );
+
+
+    toastTimer =
+        setTimeout(
+            function() {
+
+                toast.classList.remove(
+                    "show"
+                );
+
+            },
+            2500
+        );
+
+}

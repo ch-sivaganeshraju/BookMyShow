@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="java.lang.Class">
+		<list key="findhistory">
+			<item value="loginSuccessful"/>
+			<item value="users"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="378"/>
+		<item key="DIALOG_Y_ORIGIN" value="202"/>
+	</section>
+</section>

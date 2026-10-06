@@ -1,0 +1,100 @@
+package server;
+
+
+import com.sun.net.httpserver.HttpServer;
+
+import java.io.*;
+import java.net.InetSocketAddress;
+
+
+public class BookMyTicketserver {
+	
+
+	    public static void main(String[] args) throws Exception {
+
+	        HttpServer server =
+	                HttpServer.create(
+	                        new InetSocketAddress(8080), 0);
+
+	        server.createContext("/locations", (exchange) -> {
+
+	            StringBuilder json = new StringBuilder();
+	            json.append("[");
+
+	            BufferedReader reader =
+	                    new BufferedReader(
+	                            new FileReader("locations.txt"));
+
+	            String line;
+	            boolean first = true;
+
+	            while ((line = reader.readLine()) != null) {
+
+	                if (line.trim().isEmpty()) {
+	                    continue;
+	                }
+
+	                String[] data = line.split("\\|");
+
+	                if (data.length >= 8) {
+
+	                    if (!first) {
+	                        json.append(",");
+	                    }
+
+	                    json.append("{");
+	                    json.append("\"busId\":\"").append(data[0]).append("\",");
+	                    json.append("\"from\":\"").append(data[1]).append("\",");
+	                    json.append("\"to\":\"").append(data[2]).append("\",");
+	                    json.append("\"type\":\"").append(data[3]).append("\",");
+	                    json.append("\"departure\":\"").append(data[4]).append("\",");
+	                    json.append("\"distance\":\"").append(data[5]).append("\",");
+	                    json.append("\"adultFare\":\"").append(data[6]).append("\",");
+	                    json.append("\"childFare\":\"").append(data[7]).append("\"");
+	                    json.append("}");
+
+	                    first = false;
+	                }
+	            }
+
+	            reader.close();
+
+	            json.append("]");
+
+	            String response = json.toString();
+
+	            exchange.getResponseHeaders().set(
+	                    "Content-Type",
+	                    "application/json"
+	            );
+
+	            exchange.getResponseHeaders().set(
+	                    "Access-Control-Allow-Origin",
+	                    "*"
+	            );
+
+	            exchange.sendResponseHeaders(
+	                    200,
+	                    response.getBytes().length
+	            );
+
+	            OutputStream output =
+	                    exchange.getResponseBody();
+
+	            output.write(response.getBytes());
+	            output.close();
+	        });
+
+	        server.start();
+
+	        System.out.println(
+	                "BookMyTicket Server Started!"
+	        );
+
+	        System.out.println(
+	                "Server running at http://localhost:8080"
+	        );
+	    }
+	}
+
+

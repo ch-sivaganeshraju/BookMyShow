@@ -1,0 +1,24 @@
+package com;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.io.IOException;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+
+		public class Main {
+		    public static void main(String[] args) {
+		        try {
+		            String content = Files.readString(Path.of("data/input.txt"));
+		            System.out.println(content);
+		        } catch (IOException e) {
+		            e.printStackTrace();
+		        }
+		    }
+		}
+
+	}
+
+}
